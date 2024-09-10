@@ -32,7 +32,7 @@
 
                     BorderThickness="0"
                     Content="-"
-                    Foreground="White"
+                    Foreground="{DynamicResource fontColorPrimary}"
                     FontSize="16"
                     Cursor="Hand"
                     Grid.Column="1">
@@ -63,7 +63,7 @@
     
     BorderThickness="0"
     Content="X"
-    Foreground="White"
+    Foreground="{DynamicResource fontColorPrimary}"
     FontSize="12"
     Cursor="Hand"
     Grid.Column="2">
@@ -101,7 +101,7 @@
                 <StackPanel Orientation="Horizontal">
                     <StackPanel>
                         <TextBlock Text="Nombre"
-               Foreground="White"
+               Foreground="{DynamicResource fontColorPrimary}"
                FontSize="14"
                FontWeight="Medium"
                FontFamily="Montserrat"
@@ -111,7 +111,7 @@
                FontSize="14"
                FontWeight="Medium"
                FontFamily="Montserrat"                            
-               Foreground="White"
+               Foreground="{DynamicResource fontColorPrimary}"
                CaretBrush="LightGray"
                BorderBrush="DarkGray"
                BorderThickness="0,0,0,2"
@@ -132,7 +132,7 @@
 
                     <StackPanel>
                         <TextBlock  Text="Frase"
-                               Foreground="White"
+                               Foreground="{DynamicResource fontColorPrimary}"
                                FontSize="14"
                                FontWeight="Medium"
                                FontFamily="Montserrat" />
@@ -149,7 +149,7 @@
                 <StackPanel Margin="0,25">
                     
                     <TextBlock Text="Correo"
-                               Foreground="White"
+                               Foreground="{DynamicResource fontColorPrimary}"
                                FontSize="14"
                                FontWeight="Medium"
                                FontFamily="Montserrat"
@@ -159,7 +159,7 @@
                                FontSize="14"
                                FontWeight="Medium"
                                FontFamily="Montserrat"                            
-                               Foreground="White"
+                               Foreground="{DynamicResource fontColorPrimary}"
                                CaretBrush="LightGray"
                                BorderBrush="DarkGray"
                                BorderThickness="0,0,0,2"
@@ -180,7 +180,7 @@
                 <StackPanel Orientation="Horizontal" Margin="0,0">
                     <StackPanel>
                         <TextBlock Text="Fecha de Nacimiento"
-               Foreground="White"
+               Foreground="{DynamicResource fontColorPrimary}"
                FontSize="14"
                FontWeight="Medium"
                FontFamily="Montserrat"
@@ -190,7 +190,7 @@
                FontSize="14"
                FontWeight="Medium"
                FontFamily="Montserrat"                            
-               Foreground="White"
+               Foreground="{DynamicResource fontColorPrimary}"
                CaretBrush="LightGray"
                BorderBrush="DarkGray"
                BorderThickness="0,0,0,2"
@@ -210,7 +210,7 @@
 
                     <StackPanel>
                         <TextBlock Text="Pais Actual"
-                                   Foreground="White"
+                                   Foreground="{DynamicResource fontColorPrimary}"
                                    FontSize="14"
                                    FontWeight="Medium"
                                    FontFamily="Montserrat"
@@ -220,7 +220,7 @@
                                    FontSize="14"
                                    FontWeight="Medium"
                                    FontFamily="Montserrat"                            
-                                   Foreground="White"
+                                   Foreground="{DynamicResource fontColorPrimary}"
                                    CaretBrush="LightGray"
                                    BorderBrush="DarkGray"
                                    BorderThickness="0,0,0,2"
@@ -246,7 +246,7 @@
                 <StackPanel Margin="0,25">
 
                     <TextBlock Text="Contraseña"
-                Foreground="White"
+                Foreground="{DynamicResource fontColorPrimary}"
                 FontSize="14"
                 FontWeight="Medium"
                 FontFamily="Montserrat"
@@ -256,7 +256,7 @@
                 FontSize="14"
                 FontWeight="Medium"
                 FontFamily="Montserrat"                            
-                Foreground="White"
+                Foreground="{DynamicResource fontColorPrimary}"
                 CaretBrush="LightGray"
                 BorderBrush="DarkGray"
                 BorderThickness="0,0,0,2"
@@ -276,7 +276,7 @@
                 <StackPanel Margin="0,0">
 
                     <TextBlock Text="Confirmar Contraseña"
-                Foreground="White"
+                Foreground="{DynamicResource fontColorPrimary}"
                 FontSize="14"
                 FontWeight="Medium"
                 FontFamily="Montserrat"
@@ -286,7 +286,7 @@
                 FontSize="14"
                 FontWeight="Medium"
                 FontFamily="Montserrat"                            
-                Foreground="White"
+                Foreground="{DynamicResource fontColorPrimary}"
                 CaretBrush="LightGray"
                 BorderBrush="DarkGray"
                 BorderThickness="0,0,0,2"

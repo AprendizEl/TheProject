@@ -1,4 +1,4 @@
-﻿C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+﻿
 FC:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\App.xaml;;
 FC:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\Controls\3DC.xaml;;
 FC:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\Controls\GrC.xaml;;
@@ -10,4 +10,5 @@ FC:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\Views\V_Load.xaml;;
 FC:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\Views\V_Login.xaml;;
 FC:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\Views\V_Register.xaml;;
 FC:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\Views\V_Report.xaml;;
+FC:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\Views\V_ViewStats.xaml;;
 

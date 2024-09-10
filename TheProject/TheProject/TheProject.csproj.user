@@ -36,6 +36,9 @@
     <Compile Update="Views\V_Report.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\V_ViewStats.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Controls\3DC.xaml">
@@ -90,6 +93,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\V_Report.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\V_ViewStats.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

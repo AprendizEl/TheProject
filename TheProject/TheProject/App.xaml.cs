@@ -11,6 +11,10 @@ namespace TheProject
     public partial class App : Application
     {
 
+        public static V_Register register {  get; set; }
+
+        public static V_Login login { get; set; }
+
         public static V_DashBoard DashBoard { get; set; }
 
         public static MainWindow main { get; set; }
@@ -29,11 +33,11 @@ namespace TheProject
             main.item7.Children.Add( DashBoard );
             form = new V_formE();
             loda = new V_Load();
-
-
+            register = new V_Register();
+            login = new V_Login();
 
             init = new V_ContainerB();
-            init.contentGrid.Children.Add(new V_Login());
+            init.contentGrid.Children.Add(login);
 
 
             loda.Show();

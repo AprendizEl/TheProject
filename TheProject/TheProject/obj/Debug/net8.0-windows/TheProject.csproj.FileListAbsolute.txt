@@ -197,3 +197,5 @@ C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\obj\Debug\net8.0-windo
 C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\obj\Debug\net8.0-windows\Score Path.pdb
 C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\obj\Debug\net8.0-windows\TheProject.genruntimeconfig.cache
 C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\obj\Debug\net8.0-windows\ref\Score Path.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\obj\Debug\net8.0-windows\Views\V_ViewStats.g.cs
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\obj\Debug\net8.0-windows\Views\V_ViewStats.baml
