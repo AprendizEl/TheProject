@@ -1,0 +1,116 @@
+﻿<UserControl x:Class="TheProject.Views.V_formE"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TheProject.Views"
+             
+              xmlns:faWPF="clr-namespace:FontAwesome.Sharp;assembly=FontAwesome.Sharp"
+             
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Margin="10">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row="0">
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="120"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Horizontal"
+                     VerticalAlignment="Top"
+                     Grid.Column="0">
+                <faWPF:IconBlock Icon="Search" Height="15" Width="20" Foreground="{DynamicResource fontColorPrimary}"/>
+                <TextBox Text="Search..."   
+                 FontSize="13"
+                      Height="24"
+                        Width="300"
+                        Background="Transparent"
+                          FontWeight="Medium"
+                          FontFamily="Montserrat"                            
+                          Foreground="{DynamicResource  fontColorPrimary}"
+                          CaretBrush="{DynamicResource  fontColorPrimary}"
+                          BorderBrush="{DynamicResource  fontColorPrimary}"
+                          BorderThickness="0,0,0,1"                             
+                          VerticalContentAlignment="Center"
+                          Margin="5,5,0,0"></TextBox>
+            </StackPanel>
+            <Button Grid.Column="1"
+                         Command="{Binding LoginCommand}"                            
+                         Content="Search"                            
+                         FontSize="12"
+                         FontFamily="Montserrat"
+                         Cursor="Hand"
+                         BorderThickness="0"
+                         Foreground="White"
+                 VerticalAlignment="Top">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="{DynamicResource buttonColor}"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Height="30"
+                                                 CornerRadius="5"
+                                                 Background="{TemplateBinding Background}">
+                                        <ContentPresenter VerticalAlignment="Center"
+                                                                   HorizontalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="{DynamicResource buttonHoverColor}"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+        </Grid>
+        <Border Grid.Row="1"
+
+             CornerRadius="10" 
+             Padding="10">
+
+                <Border.Background>
+                    <SolidColorBrush Color="{DynamicResource primaryBackColor1}" />
+                </Border.Background>
+
+            
+            
+            
+            <DataGrid ColumnWidth="*"
+               BorderThickness="0">
+                <DataGrid.Background>
+                    <SolidColorBrush Color="{DynamicResource primaryBackColor1}" />
+                </DataGrid.Background>
+                
+                <DataGrid.ColumnHeaderStyle>
+                    <Style TargetType="DataGridColumnHeader">
+                        <Setter Property="Background" Value="Transparent"/>
+                        <Setter Property="Foreground" Value="#BCBEE0"/>
+                        <Setter Property="Padding" Value="10,0,0,10"/>
+                        <Setter Property="FontFamily" Value="Montserrat"/>
+                        <Setter Property="FontSize" Value="15"/>
+                    </Style>
+                </DataGrid.ColumnHeaderStyle>
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="ID" HeaderStringFormat=""/>
+                    <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="First name"/>
+                    <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Last name"/>
+                    <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Phone"/>
+                    <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Number"/>
+                    <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Address"/>
+                </DataGrid.Columns>
+            </DataGrid>
+                
+                
+        </Border>
+    </Grid>
+</UserControl>

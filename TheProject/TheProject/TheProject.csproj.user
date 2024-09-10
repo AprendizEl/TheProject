@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\eecheto\Desktop\MyProjet\Prueba4\TheProject\TheProject\Properties\PublishProfiles\ClickOnceProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Controls\3DC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\GrC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\V_ContainerB.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\V_DashBoard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\V_formE.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\V_Load.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\V_Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\V_Register.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\V_Report.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Controls\3DC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\GrC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\BlueTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Botones.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Colors.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Colors1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\DarkTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\GreenTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Light.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\LightTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\V_ContainerB.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\V_DashBoard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\V_formE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\V_Load.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\V_Login.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\V_Register.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\V_Report.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
