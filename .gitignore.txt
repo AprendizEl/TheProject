@@ -1,0 +1,96 @@
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Installer folder
+installer/
+
+# Auto-generated files
+*.log
+*.tlog
+*.log.txt
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Web deploy
+*.publish.xml
+
+# JetBrains Rider
+.idea/
+
+# DotCover
+*.dcvr
+
+# StyleCop
+StyleCopReport.xml
+
+# TeamCity
+_TeamCity/
+
+# NCrunch
+*.ncrunchsolution
+*.ncrunchproject
+*.ncrunch
+*.globalconfig.xml
+*.user.globalconfig.xml
+TestResult.xml
+
+# Backup files
+*.bak
+*.swp
+
+# Other extensions
+*.dbmdl
+*.pdb
+*.cache
+*.g.cs
+*.g.i.cs
+*.compiled
+
+# Package files
+*.nupkg
+*.snupkg
+*.package
+*.deploy
+
+# Rider annotations
+*.ReSharper
+*.DotSettings.user
