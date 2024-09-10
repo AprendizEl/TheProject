@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\views\\v_login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\views\\v_login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "V_Login.xaml",
+              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\V_Login.xaml",
+              "RelativeDocumentMoniker": "TheProject\\Views\\V_Login.xaml",
+              "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\V_Login.xaml",
+              "RelativeToolTip": "TheProject\\Views\\V_Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-10T16:05:24.621Z",
+              "EditorCaption": ""
             }
           ]
         }
