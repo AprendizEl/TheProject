@@ -8,7 +8,7 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="https://drive.google.com/drive/folders/1vawGuW5PY3E4ddpMiXNUgPf8xJCsuQm7/Score%20Path.application" />
+    <deploymentProvider codebase="https://chatgpt.com/c/25945d14-db8b-44a4-b27d-434c2ce4f233/Score%20Path.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
@@ -21,7 +21,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>nuWJiqBwQArEf2eK+4EVEQGdpFiPcdbInV2/0OWj1lo=</dsig:DigestValue>
+        <dsig:DigestValue>e1pnzxg+gFs27GSqUZuRROjPRBFSdeOhMFy8Hs1XAUI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

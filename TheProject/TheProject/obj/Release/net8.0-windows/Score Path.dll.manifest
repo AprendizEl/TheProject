@@ -251,13 +251,13 @@
       <dsig:DigestValue>OBFHkh+8gMuSiNrPgQC1qUN0sjTLfo66/6RyJi6WS88=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Score Path.dll" size="403888">
+  <file name="Score Path.dll" size="404912">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>IrY9iUyxErU4QacIcsY7at8pZ7bxK/LqCUua47HL7ic=</dsig:DigestValue>
+      <dsig:DigestValue>g/qaBmXb/taKaM9lvx3foobisb4efK1/sgqrXACsivg=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Score Path.exe" size="143792">
@@ -266,7 +266,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>dYqkOCnab5lz8KE3qOBJJANYDgz+TYrNBICGOFba0g8=</dsig:DigestValue>
+      <dsig:DigestValue>WzArDW2XlsFphebEjVr9Jdsctj/1R783WibLNCcE1Yc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Score Path.runtimeconfig.json" size="458">

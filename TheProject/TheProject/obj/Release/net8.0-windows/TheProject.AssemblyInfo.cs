@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Score Path")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f63fc8b4f6e54f2584a5650bc9edbbdfbe375818")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+572e3b5b960eda166b9c00545ac0fff5aa5ed7c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Score Path")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Score Path")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
