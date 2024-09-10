@@ -1,0 +1,62 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Primary and Secondary Background Colors -->
+    <Color x:Key="primaryBackColor1">#40394A</Color>
+    <!-- New Primary Color 1 -->
+    <Color x:Key="primaryBackColor2">#1C1427</Color>
+    <!-- New Primary Color 2 -->
+    <Color x:Key="secondaryBackColor1">#FBF9F1</Color>
+    <Color x:Key="secondaryBackColor2">#00ADB5</Color>
+
+    <!-- Window Border Colors -->
+    <Color x:Key="winBorderColor1">#CCFFBD</Color>
+    <!-- New Border Color 1 -->
+    <Color x:Key="winBorderColor2">#7ECA9C</Color>
+    <!-- New Border Color 2 -->
+    <Color x:Key="winBorderColor3">#40394A</Color>
+    <!-- New Border Color 3 -->
+
+    <!-- Color Palette -->
+    <SolidColorBrush x:Key="accentColor1" Color="#7ECA9C"/>
+    <SolidColorBrush x:Key="accentColor2" Color="#FBF9F1"/>
+    <SolidColorBrush x:Key="accentColor3" Color="#4ADAEC"/>
+    <SolidColorBrush x:Key="accentColor4" Color="#FF4081"/>
+    <SolidColorBrush x:Key="accentColor5" Color="#7E82FC"/>
+    <SolidColorBrush x:Key="accentColor6" Color="#FFC047"/>
+    <SolidColorBrush x:Key="accentColor7" Color="#D72323"/>
+    <SolidColorBrush x:Key="accentColor8" Color="#9C27B0"/>
+    <SolidColorBrush x:Key="accentColor9" Color="#4CAF50"/>
+    <SolidColorBrush x:Key="accentColor10" Color="#607D8B"/>
+
+    <!-- Font Colors -->
+    <SolidColorBrush x:Key="fontColorPrimary" Color="#F2EFE5"/>
+    <SolidColorBrush x:Key="fontColorSecondary" Color="#FBF9F1"/>
+    <SolidColorBrush x:Key="fontColorTertiary" Color="#C7C8CC"/>
+
+    <!-- Panel Colors -->
+    <SolidColorBrush x:Key="panelColor" Color="#C7C8CC"/>
+    <SolidColorBrush x:Key="panelHoverColor" Color="#7ECA9C"/>
+    <SolidColorBrush x:Key="panelActiveColor" Color="#1C1427"/>
+
+    <!-- Button Colors -->
+    <SolidColorBrush x:Key="buttonColor" Color="#7ECA9C"/>
+    <SolidColorBrush x:Key="buttonHoverColor" Color="#4ADAEC"/>
+    <SolidColorBrush x:Key="buttonPressedColor" Color="#00796B"/>
+
+    <!-- TextBox Colors -->
+    <SolidColorBrush x:Key="textBoxBackgroundColor" Color="#FBF9F1"/>
+    <SolidColorBrush x:Key="textBoxBorderColor" Color="#7ECA9C"/>
+    <SolidColorBrush x:Key="textBoxForegroundColor" Color="#313131"/>
+
+    <!-- Listbox Colors -->
+    <!-- ComboBox Colors -->
+
+    <!-- Miscellaneous Colors -->
+    <SolidColorBrush x:Key="darkBackground" Color="#40394A"/>
+    <SolidColorBrush x:Key="darkBorder" Color="#1C1427"/>
+    <SolidColorBrush x:Key="hoverColor" Color="#E0E0E0"/>
+
+
+
+</ResourceDictionary>
