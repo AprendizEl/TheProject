@@ -1258,11 +1258,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eecheto\\Desktop\\MyProjet\\Prueba4\\TheProject\\TheProject\\TheProject.csproj",
-      "projectName": "Score PaTh",
-      "projectPath": "C:\\Users\\eecheto\\Desktop\\MyProjet\\Prueba4\\TheProject\\TheProject\\TheProject.csproj",
+      "projectUniqueName": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\TheProject.csproj",
+      "projectName": "Score Path",
+      "projectPath": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\TheProject.csproj",
       "packagesPath": "C:\\Users\\eecheto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eecheto\\Desktop\\MyProjet\\Prueba4\\TheProject\\TheProject\\obj\\",
+      "outputPath": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\eecheto\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,33 @@
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\Score Path.exe
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\Score Path.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\Score Path.deps.json
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\Score Path.runtimeconfig.json
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\Score Path.pdb
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\CommunityToolkit.Mvvm.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\FontAwesome.Sharp.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\HarfBuzzSharp.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\HelixToolkit.Wpf.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\LiveChartsCore.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\LiveChartsCore.SkiaSharpView.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\LiveChartsCore.SkiaSharpView.WPF.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\MaterialDesignColors.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\MaterialDesignThemes.Wpf.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\MaterialDesignXaml.DialogsHelper.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\Microsoft.Xaml.Behaviors.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\Newtonsoft.Json.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\SkiaSharp.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\SkiaSharp.HarfBuzz.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\SkiaSharp.Views.Desktop.Common.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\SkiaSharp.Views.WPF.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\System.IO.Pipelines.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\System.Text.Encodings.Web.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\System.Text.Json.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Release\net8.0-windows\app.publish\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
