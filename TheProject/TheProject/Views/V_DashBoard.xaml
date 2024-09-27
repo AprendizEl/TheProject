@@ -193,7 +193,7 @@
                                 <TextBlock Text="6H"
                                             FontWeight="DemiBold"
                                             FontSize="12"
-                                            Foreground="{DynamicResource accentColor1}"/>
+                                            Foreground="{DynamicResource CorrectBrush}"/>
 
 
                             </StackPanel>
@@ -242,7 +242,7 @@
                                 <TextBlock Text="120m"
                                             FontWeight="DemiBold"
                                             FontSize="12"
-                                            Foreground="{DynamicResource accentColor1}"/>
+                                            Foreground="{DynamicResource CorrectBrush}"/>
 
 
                             </StackPanel>
@@ -290,7 +290,7 @@
                                 <TextBlock Text="0m"
                                             FontWeight="DemiBold"
                                             FontSize="12"
-                                            Foreground="{DynamicResource accentColor4}"/>
+                                            Foreground="{DynamicResource ErrorBrush}"/>
 
 
                             </StackPanel>
@@ -301,6 +301,7 @@
                                             FontSize="12"
                                             Foreground="{DynamicResource fontColorPrimary}"/>
 
+                                
                                 <TextBlock Text="0m "
                                             FontWeight="DemiBold"
                                             FontSize="12"
@@ -342,7 +343,7 @@
                                 <TextBlock Text="30m"
                                             FontWeight="DemiBold"
                                             FontSize="12"
-                                            Foreground="{DynamicResource accentColor1}"/>
+                                            Foreground="{DynamicResource CorrectBrush}"/>
 
 
                             </StackPanel>

@@ -121,7 +121,7 @@
                           HorizontalAlignment="Center"
                           Margin="0,5,0,0"/>
 
-                    <TextBlock Text="Encontraras todas las estadisticas y datos importantes de tus jugadores favoritos"
+                    <TextBlock Text="Visualiza, organiza y agrega registros de tu dia a dia con nosotros"
                                Foreground="{DynamicResource fontColorPrimary}"
                           FontSize="12"
                           FontWeight="Medium"

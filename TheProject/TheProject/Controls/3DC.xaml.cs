@@ -217,66 +217,56 @@ namespace TheProject.Controls
             };
 
 
-            // Agregar los puntos y líneas correspondientes
-            lines.Points.Add(new Point3D(-2, 4, -2));
-            lines.Points.Add(new Point3D(-4, 3, -5));
+            //// Agregar los puntos y líneas correspondientes
+            //lines.Points.Add(new Point3D(-2, 4, -2));
+            //lines.Points.Add(new Point3D(-4, 3, -5));
 
-            lines.Points.Add(new Point3D(-4, 3, -5));
-            lines.Points.Add(new Point3D(-5, 1, -8));
+            //lines.Points.Add(new Point3D(-4, 3, -5));
+            //lines.Points.Add(new Point3D(-5, 1, -8));
 
-            lines.Points.Add(new Point3D(-5, 1, -8));
-            lines.Points.Add(new Point3D(-5, -5, -9));
+            //lines.Points.Add(new Point3D(-5, 1, -8));
+            //lines.Points.Add(new Point3D(-5, -5, -9));
 
-            lines.Points.Add(new Point3D(-5, -5, -9));
-            lines.Points.Add(new Point3D(-4, -7, -10));
+            //lines.Points.Add(new Point3D(-5, -5, -9));
+            //lines.Points.Add(new Point3D(-4, -7, -10));
 
-            lines.Points.Add(new Point3D(-4, -7, -10));
-            lines.Points.Add(new Point3D(-2, -8, -14));
+            //lines.Points.Add(new Point3D(-4, -7, -10));
+            //lines.Points.Add(new Point3D(-2, -8, -14));
 
-            lines.Points.Add(new Point3D(-2, -8, -14));
-            lines.Points.Add(new Point3D(2, -8, -14));
+            //lines.Points.Add(new Point3D(-2, -8, -14));
+            //lines.Points.Add(new Point3D(2, -8, -14));
 
-            lines.Points.Add(new Point3D(2, -8, -14));
-            lines.Points.Add(new Point3D(4, -7, -10));
+            //lines.Points.Add(new Point3D(2, -8, -14));
+            //lines.Points.Add(new Point3D(4, -7, -10));
 
-            lines.Points.Add(new Point3D(4, -7, -10));
-            lines.Points.Add(new Point3D(5, -5, -9));
+            //lines.Points.Add(new Point3D(4, -7, -10));
+            //lines.Points.Add(new Point3D(5, -5, -9));
 
-            lines.Points.Add(new Point3D(5, -5, -9));
-            lines.Points.Add(new Point3D(5, 1, -8));
+            //lines.Points.Add(new Point3D(5, -5, -9));
+            //lines.Points.Add(new Point3D(5, 1, -8));
 
-            lines.Points.Add(new Point3D(5, 1, -8));
-            lines.Points.Add(new Point3D(4, 3, -5));
+            //lines.Points.Add(new Point3D(5, 1, -8));
+            //lines.Points.Add(new Point3D(4, 3, -5));
 
-            lines.Points.Add(new Point3D(4, 3, -5));
-            lines.Points.Add(new Point3D(2, 4, -2));
+            //lines.Points.Add(new Point3D(4, 3, -5));
+            //lines.Points.Add(new Point3D(2, 4, -2));
 
-            lines.Points.Add(new Point3D(2, 4, -2));
-            lines.Points.Add(new Point3D(-2, 4, -2));
+            //lines.Points.Add(new Point3D(2, 4, -2));
+            //lines.Points.Add(new Point3D(-2, 4, -2));
 
-            //for (int i = 0; i < 20; i++)
-            //{
-
-            //    Point3D[,] pts = new Point3D[20,
-            //                lines.Points.Count];
-
-            //    double theta = i * 2 * Math.PI / (20 - 1);
-            //    for (int j = 0; j < lines.Points.Count; j++)
-            //    {
-            //        double x = lines.Points[j].X;
-            //        double z = lines.Points[j].Z;
-            //        double r = Math.Sqrt(x * x + z * z);
-            //        pts[i, j] = GetPosition(r,
-            //        lines.Points[j].Y, theta);
-            //        pts[i, j] += (Vector3D)center;    
-            //    }
-            //}
+            for (int i = 0; i < 48; i++)
+            {
+                double angle = i * Math.PI / 24;
+                lines.Points.Add(new Point3D(
+                0 + 6 * Math.Cos(angle), 6 * Math.Sin(angle), 2
+               ));
+            }
 
 
 
-            
 
-           
+
+
 
 
 
@@ -327,19 +317,13 @@ namespace TheProject.Controls
 
         public void CreateRotatedFigures(HelixViewport3D viewport)
         {
-            // Ángulo de rotación en radianes
-            double angleStep = Math.PI / 6; // rotación en pasos de 30 grados
-
-            for (int i = 0; i < 12; i++) // Crear 12 figuras rotadas
+            LinesVisual3D lines = new LinesVisual3D
             {
-                LinesVisual3D lines = new LinesVisual3D
-                {
-                    Color = Colors.Blue,
-                    Thickness = 2
-                };
+                Color = Colors.Blue,
+                Thickness = 2
+            };
 
-                // Añadir los puntos originales
-                List<Point3D> originalPoints = new List<Point3D>
+            List<Point3D> originalPoints = new List<Point3D>
                 {
 
 
@@ -362,6 +346,16 @@ namespace TheProject.Controls
 
                 };
 
+            // Ángulo de rotación en radianes
+            double angleStep = Math.PI / 6; // rotación en pasos de 30 grados
+
+            for (int i = 0; i < 20; i++) // Crear 12 figuras rotadas
+            {
+
+
+                // Añadir los puntos originales
+
+
                 // Calcular ángulo de rotación actual
                 double theta = i * angleStep;
 
@@ -369,15 +363,42 @@ namespace TheProject.Controls
                 for (int j = 0; j < originalPoints.Count - 1; j++)
                 {
                     Point3D p1 = RotatePointZ(originalPoints[j], theta);
+
                     Point3D p2 = RotatePointZ(originalPoints[j + 1], theta);
+
 
                     lines.Points.Add(p1);
                     lines.Points.Add(p2);
                 }
 
                 // Añadir las líneas al Viewport
-                viewport.Children.Add(lines);
+
             }
+
+            for (int i = 0; i < originalPoints.Count; i++)
+            {
+                var punto = originalPoints[i];
+
+                for (int c = 0; c < 15; c++)
+                {
+                    double angle = c * Math.PI / 8;
+                    lines.Points.Add(new Point3D(
+                    0 + punto.Y * Math.Cos(angle), punto.Y * Math.Sin(angle), punto.Z
+                   ));
+                }
+
+
+
+            }
+
+            var s = originalPoints.Max(x => x.Z);
+            var s1 = originalPoints.Min(x => x.Z);
+
+            lines.Points.Add(new Point3D(0,0,s));
+            lines.Points.Add(new Point3D(0, 0, s1));
+
+            viewport.Children.Add(lines);
+
         }
 
         // Función para rotar un punto alrededor del eje Z
@@ -405,12 +426,23 @@ namespace TheProject.Controls
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-           
+            var sphere = new SphereVisual3D()
+            {
+                Fill = new SolidColorBrush(Color.FromRgb(200, 200, 200)),
+                Center = new Point3D(0, 0, 0),
+                Radius = 2
+            };
+
+
+
             int num = int.Parse(Se.Text);
             newlines(num);
-            newcylider();
+            //newcylider();
             helixViewport.UpdateLayout();
             CreateRotatedFigures(helixViewport);
+            helixViewport.Children.Add(sphere);
+
+
         }
         #endregion
 

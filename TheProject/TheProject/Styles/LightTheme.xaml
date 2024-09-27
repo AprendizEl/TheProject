@@ -38,6 +38,8 @@
     <!-- Medium gray for secondary text -->
     <SolidColorBrush x:Key="fontColorTertiary" Color="#888888"/>
 
+    <SolidColorBrush x:Key="fontColorAcent" Color="F7F7F7"/>
+
     <!-- Panel Colors -->
     <SolidColorBrush x:Key="panelColor" Color="#F7F7F7"/>
     <!-- Light background for panels -->

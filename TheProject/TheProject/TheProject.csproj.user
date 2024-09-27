@@ -24,6 +24,9 @@
     <Compile Update="Views\V_formE.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\V_FormMini.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\V_Load.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -62,6 +65,9 @@
     <Page Update="Styles\Colors1.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Styles\Colors\StaticColors.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Styles\DarkTheme.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -81,6 +87,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\V_formE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\V_FormMini.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\V_Load.xaml">

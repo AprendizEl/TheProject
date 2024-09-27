@@ -1,0 +1,39 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Color x:Key="CorrectColor">#4CAF50</Color>
+    <Color x:Key="ErrorColor">#F44336</Color>
+    <Color x:Key="WarningColor">#FF9800</Color>
+    <Color x:Key="InfoColor">#2196F3</Color>
+    <Color x:Key="DefaultColor">#9E9E9E</Color>
+
+    <SolidColorBrush x:Key="CorrectBrush" Color="{StaticResource CorrectColor}"/>
+    <SolidColorBrush x:Key="ErrorBrush" Color="{StaticResource ErrorColor}"/>
+    <SolidColorBrush x:Key="WarningBrush" Color="{StaticResource WarningColor}"/>
+    <SolidColorBrush x:Key="InfoBrush" Color="{StaticResource InfoColor}"/>
+    <SolidColorBrush x:Key="DefaultBrush" Color="{StaticResource DefaultColor}"/>
+
+
+    <Color x:Key="FormIconColor">#4CAF50</Color>       <!-- Verde Brillante -->
+        <Color x:Key="StatsIconColor">#2196F3</Color>      <!-- Azul Brillante -->
+        <Color x:Key="DashboardIconColor">#FF5722</Color>  <!-- Naranja Intenso -->
+        <Color x:Key="UserIconColor">#607D8B</Color>       <!-- Gris Oscuro -->
+        <Color x:Key="SettingsIconColor">#FFC107</Color>   <!-- Amarillo Brillante -->
+        <Color x:Key="NotificationIconColor">#F44336</Color><!-- Rojo Vivo -->
+        <Color x:Key="HelpIconColor">#9C27B0</Color>       <!-- Morado Vibrante -->
+        <Color x:Key="LogoutIconColor">#FF9800</Color>     <!-- Naranja Medio -->
+        <Color x:Key="SearchIconColor">#3F51B5</Color>     <!-- Azul Oscuro -->
+        <Color x:Key="ProfileIconColor">#673AB7</Color>    <!-- Índigo Profundo -->
+
+        <SolidColorBrush x:Key="FormIconBrush" Color="{StaticResource FormIconColor}"/>
+        <SolidColorBrush x:Key="StatsIconBrush" Color="{StaticResource StatsIconColor}"/>
+        <SolidColorBrush x:Key="DashboardIconBrush" Color="{StaticResource DashboardIconColor}"/>
+        <SolidColorBrush x:Key="UserIconBrush" Color="{StaticResource UserIconColor}"/>
+        <SolidColorBrush x:Key="SettingsIconBrush" Color="{StaticResource SettingsIconColor}"/>
+        <SolidColorBrush x:Key="NotificationIconBrush" Color="{StaticResource NotificationIconColor}"/>
+        <SolidColorBrush x:Key="HelpIconBrush" Color="{StaticResource HelpIconColor}"/>
+        <SolidColorBrush x:Key="LogoutIconBrush" Color="{StaticResource LogoutIconColor}"/>
+        <SolidColorBrush x:Key="SearchIconBrush" Color="{StaticResource SearchIconColor}"/>
+        <SolidColorBrush x:Key="ProfileIconBrush" Color="{StaticResource ProfileIconColor}"/>
+
+</ResourceDictionary>

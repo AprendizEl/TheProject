@@ -10,13 +10,13 @@
     <Grid>
         <h:HelixViewport3D x:Name="helixViewport" Background="SkyBlue" >
             <!-- Luz para iluminar el modelo 3D -->
-            <h:SunLight  />
 
-            <!-- Cámara -->
-          
-            <!--<h:SphereVisual3D Radius="2" ThetaDiv="2" Fill="CadetBlue" />-->
+            <h:DefaultLights/>
 
-            <h:LinesVisual3D Points="
+            <!-- La esfera -->
+            <h:SphereVisual3D Radius="2" Fill="CadetBlue" />
+
+            <!--<h:LinesVisual3D Points="
                  
                           0,0,0,
                              
@@ -36,7 +36,7 @@
                              
        
                  
-                 " />
+                 " />-->
 
             <h:Exploder3D />
 
