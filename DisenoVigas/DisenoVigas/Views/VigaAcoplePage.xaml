@@ -1,0 +1,291 @@
+﻿<Page
+    x:Class="DisenoVigas.Views.VigaAcoplePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <ScrollView HorizontalScrollBarVisibility="Visible" Width="auto">
+        <Grid x:Name="ContentArea">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="300"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+
+                <!--<Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>-->
+
+
+                <StackPanel Orientation="Horizontal"  >
+
+
+                    <Border BorderBrush="{ThemeResource CardStrokeColorDefault}" Background="{ThemeResource CardBackgroundFillColorDefault}" Width="400" BorderThickness="1" Padding="5" >
+
+
+
+                        <StackPanel HorizontalAlignment="Center">
+
+                            <TextBlock Text="Datos Entrada" />
+
+                            <StackPanel Orientation="Horizontal" Padding="5">
+
+
+
+                                <StackPanel>
+
+                                    <StackPanel Orientation="Horizontal" Margin="5">
+
+                                        <TextBlock Text="f'c [kgf/cm2]" Margin="0,0,22,0" VerticalAlignment="Center" />
+                                        <TextBox Text="30" Width="20" Height="10" />
+
+                                    </StackPanel>
+
+                                    <StackPanel Orientation="Horizontal" Margin="5">
+
+                                        <TextBlock Text="Vu [Tonf]" Margin="0,0,44,0"  VerticalAlignment="Center" />
+                                        <TextBox Text="30" Width="20" Height="10"/>
+
+                                    </StackPanel>
+
+                                    <StackPanel Orientation="Horizontal" Margin="5">
+
+                                        <TextBlock Text="bw [m]" Margin="0,0,56,0"  VerticalAlignment="Center" />
+                                        <TextBox Text="30" Width="20" Height="10"/>
+
+                                    </StackPanel>
+
+                                    <StackPanel Orientation="Horizontal" Margin="5">
+
+                                        <TextBlock Text="Recubrimiento [cm]" Margin="0,0,0,0"  VerticalAlignment="Center" />
+                                        <ComboBox Text="30" />
+
+                                    </StackPanel>
+
+                                    <StackPanel Orientation="Horizontal" Margin="5">
+
+                                        <TextBlock Text="Barras Avd" Margin="0,0,35,0"  VerticalAlignment="Center" />
+                                        <ComboBox Text="30" />
+
+                                    </StackPanel>
+
+                                    <StackPanel Orientation="Horizontal" Margin="5">
+
+                                        <TextBlock Text="Barras Piel" Margin="0,0,37,0"  VerticalAlignment="Center" />
+                                        <ComboBox Text="30" />
+
+                                    </StackPanel>
+
+                                </StackPanel>
+
+                                <StackPanel HorizontalAlignment="Center" Margin="10,0">
+
+                                    <StackPanel Orientation="Horizontal" Margin="5">
+
+                                        <TextBlock Text="fy [kgf/cm2]" Margin="0,0,22,0"  VerticalAlignment="Center" />
+                                        <TextBox Text="30" />
+
+                                    </StackPanel>
+
+                                    <StackPanel Orientation="Horizontal" Margin="5">
+
+                                        <TextBlock Text="Luz [m]" Margin="0,0,50,0"  VerticalAlignment="Center" />
+                                        <TextBox Text="30" />
+
+                                    </StackPanel>
+
+                                    <StackPanel Orientation="Horizontal" Margin="5">
+
+                                        <TextBlock Text="h [m]" Margin="0,0,63,0"  VerticalAlignment="Center" />
+                                        <TextBox Text="30" />
+
+                                    </StackPanel>
+
+                                    <StackPanel Orientation="Horizontal" Margin="5">
+
+                                        <TextBlock Text="d' [cm]" Margin="0,0,52,0"  VerticalAlignment="Center" />
+                                        <TextBox Text="30" />
+
+                                    </StackPanel>
+
+                                    <StackPanel Orientation="Horizontal" Margin="5">
+
+                                        <TextBlock Text="Barras Ash" Margin="0,0,30,0"  VerticalAlignment="Center" />
+                                        <TextBox Text="30" />
+
+                                    </StackPanel>
+
+                                    <Button Content="Confirmar Cambios" Width="150" />
+
+                                </StackPanel>
+
+
+
+                            </StackPanel>
+
+                        </StackPanel>
+
+
+
+
+                    </Border>
+
+
+                    <Border BorderBrush="{ThemeResource CardStrokeColorDefault}" Background="{ThemeResource CardBackgroundFillColorDefault}" Width="300" BorderThickness="1" Margin="10,0" Padding="5">
+
+                        <StackPanel>
+
+                            <TextBlock Text="Procedimiento" />
+
+                            <StackPanel Padding="5">
+
+                                <TextBlock Text="Relación de Aspecto" Margin="0,5"/>
+
+
+                                <TextBlock Text="Locurooooooon" Margin="0,5" />
+
+
+                                <TextBlock Text="Locurooooooooooooooooooooooooooooooooooooooooooooooon" TextWrapping="Wrap" Margin="0,5"/>
+
+                                <StackPanel Margin="0,15">
+
+                                    <RadioButton Content="Viga DES" />
+                                    <RadioButton Content="Viga con refuerzo en diagonal" />
+
+                                </StackPanel>
+
+                                <Button Content="IR A DISEÑO" Margin="0,5" HorizontalAlignment="Center" />
+
+                            </StackPanel>
+
+
+
+                        </StackPanel>
+
+
+
+
+                    </Border>
+
+
+
+                    <Border BorderBrush="{ThemeResource CardStrokeColorDefault}" Background="{ThemeResource CardBackgroundFillColorDefault}" BorderThickness="1" Width="350" Padding="5" >
+
+                        <StackPanel >
+
+                            <TextBlock Text="Resultados" />
+
+                            <StackPanel Orientation="Vertical" Padding="5">
+
+                                <TextBlock Text="SENTIDO" TextDecorations="Underline" FontWeight="Bold" FontStyle="Italic" FontSize="10" Margin="0,5" />
+
+
+                                <StackPanel Orientation="Horizontal">
+
+                                    <StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+
+                                            <TextBlock Text="Estribos Vertical bw" FontWeight="Bold" Width="50" TextWrapping="Wrap" IsTapEnabled="True" FontSize="10" VerticalAlignment="Center" Margin="5,0" />
+
+                                            <StackPanel>
+
+                                                <TextBlock Text="Estribos Vertical bw" IsTapEnabled="True" FontSize="10" Margin="5,0" />
+                                                <TextBlock Text="Estribos Vertical bw" IsTapEnabled="True" FontSize="10" Margin="5,0" />
+
+                                            </StackPanel>
+
+                                        </StackPanel>
+
+
+
+                                        <StackPanel Orientation="Horizontal" Margin="0,6" >
+
+
+
+                                            <TextBlock Text="Estribos Vertical bw" FontWeight="Bold" Width="50" TextWrapping="Wrap" IsTapEnabled="True" FontSize="10" VerticalAlignment="Center" Margin="5,0" />
+
+                                            <StackPanel>
+
+                                                <TextBlock Text="Estribos Vertical bw" IsTapEnabled="True" FontSize="10" Margin="5,0" />
+                                                <TextBlock Text="Estribos Vertical bw" IsTapEnabled="True" FontSize="10" Margin="5,0" />
+
+                                            </StackPanel>
+
+
+
+                                        </StackPanel>
+
+
+
+                                    </StackPanel>
+
+                                    <TextBlock Text="Ash > Ashmín Si OK" TextWrapping="Wrap" Width="80" TextAlignment="Center" FontWeight="ExtraLight" FontStyle="Italic" IsTapEnabled="True" FontSize="13" Margin="5,0" VerticalAlignment="Center" />
+
+                                </StackPanel>
+
+
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Pasan cosas" TextDecorations="Underline" FontWeight="Bold" FontStyle="Italic" FontSize="10" Margin="0,0,30,0" />
+                                    <TextBlock Text="Pasan cosas" TextDecorations="Underline" FontWeight="Bold" FontStyle="Italic" FontSize="10"  />
+                                </StackPanel>
+
+                                <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
+                                    <TextBlock Text="Pasan cosas"  FontSize="10" Margin="0,0,30,0" />
+                                    <TextBlock Text="Pasan cosas"  FontStyle="Italic" FontSize="10"  />
+                                </StackPanel>
+
+
+
+
+                                <StackPanel Orientation="Horizontal">
+
+
+
+
+
+                                    <StackPanel>
+
+                                        <TextBlock Text="Estribos Vertical bw" IsTapEnabled="True" FontSize="10" Margin="5,0" />
+                                        <TextBlock Text="Estribos Vertical bw" IsTapEnabled="True" FontSize="10" Margin="5,0" />
+
+                                    </StackPanel>
+
+
+
+
+
+                                    <TextBlock Text="Ash > Ashmín Si OK" TextWrapping="Wrap" Width="80" TextAlignment="Center" FontWeight="ExtraLight" FontStyle="Italic" IsTapEnabled="True" FontSize="13" Margin="5,0" VerticalAlignment="Center" />
+
+                                </StackPanel>
+
+
+
+                            </StackPanel>
+
+
+                        </StackPanel>
+
+                    </Border>
+
+
+
+                </StackPanel>
+
+
+
+
+
+            </Grid>
+
+
+        </Grid>
+    </ScrollView>
+  
+</Page>

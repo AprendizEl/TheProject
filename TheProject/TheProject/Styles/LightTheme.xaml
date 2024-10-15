@@ -38,7 +38,7 @@
     <!-- Medium gray for secondary text -->
     <SolidColorBrush x:Key="fontColorTertiary" Color="#888888"/>
 
-    <SolidColorBrush x:Key="fontColorAcent" Color="F7F7F7"/>
+    <SolidColorBrush x:Key="fontColorAcent" Color="#F7F7F7"/>
 
     <!-- Panel Colors -->
     <SolidColorBrush x:Key="panelColor" Color="#F7F7F7"/>
@@ -61,7 +61,7 @@
     <!-- Dark gray text -->
 
     <!-- Miscellaneous Colors -->
-    <SolidColorBrush x:Key="darkBackground" Color="#F7F7F7"/>
+    <SolidColorBrush x:Key="darkBackground" Color="#35323b"/>
     <!-- Main light background -->
     <SolidColorBrush x:Key="darkBorder" Color="#CCCCCC"/>
     <!-- Light border color -->

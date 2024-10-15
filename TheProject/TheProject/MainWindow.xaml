@@ -353,7 +353,7 @@
 
                         </Grid>
 
-                        <Grid x:Name="item7" Grid.Row="2" Margin="25" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+                        <Grid x:Name="item7" Grid.Row="2" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
 
 
 

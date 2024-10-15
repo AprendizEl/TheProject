@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\App.xaml
-211207182972
+2248140765
 
-28-314604718
+291423398157
 224766512678
-Controls\3DC.xaml;Controls\GrC.xaml;MainWindow.xaml;Styles\BlueTheme.xaml;Styles\Botones.xaml;Styles\Colors.xaml;Styles\Colors1.xaml;Styles\Colors\StaticColors.xaml;Styles\DarkTheme.xaml;Styles\GreenTheme.xaml;Styles\Light.xaml;Styles\LightTheme.xaml;Views\V_ContainerB.xaml;Views\V_DashBoard.xaml;Views\V_formE.xaml;Views\V_FormMini.xaml;Views\V_Load.xaml;Views\V_Login.xaml;Views\V_Register.xaml;Views\V_Report.xaml;Views\V_ViewStats.xaml;
+Controls\3DC.xaml;Controls\GrC.xaml;MainWindow.xaml;Styles\BlueTheme.xaml;Styles\Botones.xaml;Styles\Colors.xaml;Styles\Colors1.xaml;Styles\Colors\StaticColors.xaml;Styles\DarkTheme.xaml;Styles\GreenTheme.xaml;Styles\Light.xaml;Styles\LightTheme.xaml;Views\V_ContainerB.xaml;Views\V_DashBoard.xaml;Views\V_formE.xaml;Views\V_FormMini.xaml;Views\V_Load.xaml;Views\V_Login.xaml;Views\V_Register.xaml;Views\V_Register2.xaml;Views\V_Report.xaml;Views\V_ViewStats.xaml;
 
-False
+True
 

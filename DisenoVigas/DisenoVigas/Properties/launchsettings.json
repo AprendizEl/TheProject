@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "DisenoVigas (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "DisenoVigas (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}

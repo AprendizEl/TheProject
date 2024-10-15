@@ -36,6 +36,9 @@
     <Compile Update="Views\V_Register.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\V_Register2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\V_Report.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -99,6 +102,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\V_Register.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\V_Register2.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\V_Report.xaml">

@@ -380,30 +380,17 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <Grid Grid.Column="0" Margin="10">
 
 
-                <Border CornerRadius="5"  >
-                    <Border.BorderBrush>
-                        <SolidColorBrush Color="Transparent" />
-                    </Border.BorderBrush>
-
-                    <Border.Background>
-                        <SolidColorBrush Color="{DynamicResource primaryBackColor1}" />
-                    </Border.Background>
-
-                    <StackPanel>
-                        <Grid Name="BB">
+            <Grid>
+                <Viewbox Stretch="Fill" Grid.Column="0" Margin="10,4" StretchDirection="UpOnly" >
+                    <Calendar CalendarItemStyle="{DynamicResource CalendarCalendarItemStyle1}" Name="calendarControl" FontSize="20" />
 
 
-                        </Grid>
-         
-                    </StackPanel>
-                 
-                </Border>
-
-
+                </Viewbox>
             </Grid>
+
+
 
             <Grid Grid.Column="1" Margin="10">
 

@@ -52,7 +52,6 @@ namespace TheProject.ViewModels
             switch (page)
             {
                 case ePageView.DashBoard:
-                    App.DashBoard.BB.Children.Clear();
                     App.main.item7.Children.Clear();
                     App.main.item7.Children.Add(App.DashBoard);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
 

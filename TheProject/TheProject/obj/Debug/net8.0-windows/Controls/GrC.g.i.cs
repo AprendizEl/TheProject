@@ -63,7 +63,7 @@ namespace TheProject.Controls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Score Path;component/controls/grc.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Score Path;V1.0.0.0;component/controls/grc.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Controls\GrC.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -60,7 +60,7 @@
     <!-- Light gray text -->
 
     <!-- Miscellaneous Colors -->
-    <SolidColorBrush x:Key="darkBackground" Color="#2A2438"/>
+    <SolidColorBrush x:Key="darkBackground" Color="#211d2b"/>
     <!-- Main dark background -->
     <SolidColorBrush x:Key="darkBorder" Color="#3D3748"/>
     <!-- Derived dark border color -->

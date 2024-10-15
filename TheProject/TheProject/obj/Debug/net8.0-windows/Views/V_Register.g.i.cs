@@ -122,7 +122,7 @@ namespace TheProject.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Score Path;component/views/v_register.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Score Path;V1.0.0.0;component/views/v_register.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\V_Register.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
