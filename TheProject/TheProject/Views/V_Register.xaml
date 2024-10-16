@@ -7,8 +7,8 @@
              xmlns:models="clr-namespace:TheProject.Models"
              mc:Ignorable="d" 
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-             
-                      Height="450" Width="800">
+             xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView.WPF;assembly=LiveChartsCore.SkiaSharpView.WPF"
+             Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
@@ -118,10 +118,8 @@
                Height="25"
                VerticalContentAlignment="Bottom"
                Margin="0,5,30,0"
-               Width="240"
-               materialDesign:HintAssist.Hint="Adam Wysley"
-       
-               Text="{Binding summoner.Phrase}">
+               Width="240"       
+               Text="{Binding disenoflexion.D}">
 
                             <TextBox.Background>
                                 <SolidColorBrush Color="Transparent"/>
@@ -166,8 +164,7 @@
                                Height="25"
                                VerticalContentAlignment="Bottom"
                                Margin="0,5,0,0"
-       
-                               Text="{Binding summoner.Phrase}">
+                               Text="{Binding disenoflexion.D2}">
 
                         <TextBox.Background>
                             <SolidColorBrush Color="Transparent"/>
@@ -199,7 +196,7 @@
                Margin="0,5,30,0"
                Width="200"
        
-               Text="{Binding summoner.Phrase}">
+              Text="{Binding disenoflexion.Fc}">
 
                             <TextBox.Background>
                                 <SolidColorBrush Color="Transparent"/>
@@ -229,7 +226,7 @@
                                    Margin="0,5,0,0"
                                    Width="90"
        
-                                   Text="{Binding summoner.Phrase}">
+                                   Text="{Binding disenoflexion.Fy}">
 
                             <TextBox.Background>
                                 <SolidColorBrush Color="Transparent"/>
@@ -264,7 +261,7 @@
                 VerticalContentAlignment="Bottom"
                 Margin="0,5,0,0"
        
-                Text="{Binding summoner.Phrase}">
+                Text="{Binding disenoflexion.Mu}">
 
                         <TextBox.Background>
                             <SolidColorBrush Color="Transparent"/>
@@ -375,10 +372,20 @@
 
         </Grid>
 
-        <Grid Grid.Column="1" Grid.Row="1" Background="{DynamicResource accentColor1}">
 
+        <Grid  Grid.Column="1" Grid.Row="1" Background="{DynamicResource accentColor1}">
+            <Grid Margin="10">
+                <lvc:CartesianChart Name="Charts" />
 
+            </Grid>
         </Grid>
+
+        <lvc:CartesianChart />
+
+
+            
+
+
 
     </Grid>
 </UserControl>

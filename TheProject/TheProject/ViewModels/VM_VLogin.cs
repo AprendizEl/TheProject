@@ -42,7 +42,7 @@ namespace TheProject.ViewModels
         public void setu()
         {
             var s = new V_ContainerB();
-
+            s.contentGrid.Children.Clear();
             s.contentGrid.Children.Add(App.register);
 
             try

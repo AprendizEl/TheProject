@@ -11,6 +11,7 @@ using DisenoVigas.Views;
 
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.UI.Dispatching;
 using Microsoft.UI.Xaml;
 
 namespace DisenoVigas;
@@ -27,6 +28,7 @@ public partial class App : Application
     {
         get;
     }
+
 
     public static T GetService<T>()
         where T : class

@@ -13,7 +13,8 @@
     ],
     "additionalProbingPaths": [
       "C:\\Users\\eecheto\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\eecheto\\.nuget\\packages"
+      "C:\\Users\\eecheto\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,

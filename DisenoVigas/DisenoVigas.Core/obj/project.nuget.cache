@@ -1,13 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "cxeBrktHiUiEP3WbZxWtkc6vBqL8+viB1P9sCAMX8e0nfNJEnK9pPEUz983s/uvhvKVNZRRejGx3ZHwfesEvAQ==",
+  "dgSpecHash": "pgq4rpIs2/0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\eecheto\\Desktop\\Installer Testing\\InstallerTest3\\DisenoVigas\\DisenoVigas.Core\\DisenoVigas.Core.csproj",
+  "projectFilePath": "C:\\Users\\eecheto\\Desktop\\TheProject\\DisenoVigas\\DisenoVigas.Core\\DisenoVigas.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\eecheto\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
-    "C:\\Users\\eecheto\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512",
-    "C:\\Users\\eecheto\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
-    "C:\\Users\\eecheto\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.18\\microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512"
+    "C:\\Users\\eecheto\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
   ],
   "logs": []
 }
