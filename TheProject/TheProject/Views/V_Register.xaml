@@ -373,14 +373,16 @@
         </Grid>
 
 
-        <Grid  Grid.Column="1" Grid.Row="1" Background="{DynamicResource accentColor1}">
-            <Grid Margin="10">
-                <lvc:CartesianChart Name="Charts" />
+        <Border Grid.Column="1" Grid.Row="1" Background="{DynamicResource accentColor1}">
 
-            </Grid>
-        </Grid>
+            <lvc:CartesianChart Name="Charts" Background="AliceBlue" >
+                
+                
+            </lvc:CartesianChart>
 
-        <lvc:CartesianChart />
+
+        </Border>
+
 
 
             

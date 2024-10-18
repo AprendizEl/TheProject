@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pgq4rpIs2/0=",
+  "dgSpecHash": "Em3TkYUJBjc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\eecheto\\Desktop\\TheProject\\DisenoVigas\\DisenoVigas.Core\\DisenoVigas.Core.csproj",
+  "projectFilePath": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas.Core\\DisenoVigas.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eecheto\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
   ],

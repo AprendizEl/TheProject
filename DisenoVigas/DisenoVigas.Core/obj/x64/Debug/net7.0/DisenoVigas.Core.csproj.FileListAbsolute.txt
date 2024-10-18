@@ -10,16 +10,28 @@ C:\Users\eecheto\Desktop\Installer Testing\InstallerTest3\DisenoVigas\DisenoViga
 C:\Users\eecheto\Desktop\Installer Testing\InstallerTest3\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\refint\DisenoVigas.Core.dll
 C:\Users\eecheto\Desktop\Installer Testing\InstallerTest3\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.pdb
 C:\Users\eecheto\Desktop\Installer Testing\InstallerTest3\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\ref\DisenoVigas.Core.dll
-C:\Users\eecheto\Desktop\TheProject\DisenoVigas\DisenoVigas.Core\bin\x64\Debug\net7.0\DisenoVigas.Core.deps.json
-C:\Users\eecheto\Desktop\TheProject\DisenoVigas\DisenoVigas.Core\bin\x64\Debug\net7.0\DisenoVigas.Core.dll
-C:\Users\eecheto\Desktop\TheProject\DisenoVigas\DisenoVigas.Core\bin\x64\Debug\net7.0\DisenoVigas.Core.pdb
-C:\Users\eecheto\Desktop\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.csproj.AssemblyReference.cache
-C:\Users\eecheto\Desktop\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\eecheto\Desktop\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.AssemblyInfoInputs.cache
-C:\Users\eecheto\Desktop\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.AssemblyInfo.cs
-C:\Users\eecheto\Desktop\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.csproj.CoreCompileInputs.cache
-C:\Users\eecheto\Desktop\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.sourcelink.json
-C:\Users\eecheto\Desktop\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.dll
-C:\Users\eecheto\Desktop\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\refint\DisenoVigas.Core.dll
-C:\Users\eecheto\Desktop\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.pdb
-C:\Users\eecheto\Desktop\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\ref\DisenoVigas.Core.dll
+C:\Users\mramirez\Desktop\Todas las carpetas\Tareas\GitConEE\TheProject\DisenoVigas\DisenoVigas.Core\bin\x64\Debug\net7.0\DisenoVigas.Core.deps.json
+C:\Users\mramirez\Desktop\Todas las carpetas\Tareas\GitConEE\TheProject\DisenoVigas\DisenoVigas.Core\bin\x64\Debug\net7.0\DisenoVigas.Core.dll
+C:\Users\mramirez\Desktop\Todas las carpetas\Tareas\GitConEE\TheProject\DisenoVigas\DisenoVigas.Core\bin\x64\Debug\net7.0\DisenoVigas.Core.pdb
+C:\Users\mramirez\Desktop\Todas las carpetas\Tareas\GitConEE\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.csproj.AssemblyReference.cache
+C:\Users\mramirez\Desktop\Todas las carpetas\Tareas\GitConEE\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mramirez\Desktop\Todas las carpetas\Tareas\GitConEE\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.AssemblyInfoInputs.cache
+C:\Users\mramirez\Desktop\Todas las carpetas\Tareas\GitConEE\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.AssemblyInfo.cs
+C:\Users\mramirez\Desktop\Todas las carpetas\Tareas\GitConEE\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.csproj.CoreCompileInputs.cache
+C:\Users\mramirez\Desktop\Todas las carpetas\Tareas\GitConEE\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.sourcelink.json
+C:\Users\mramirez\Desktop\Todas las carpetas\Tareas\GitConEE\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.dll
+C:\Users\mramirez\Desktop\Todas las carpetas\Tareas\GitConEE\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\refint\DisenoVigas.Core.dll
+C:\Users\mramirez\Desktop\Todas las carpetas\Tareas\GitConEE\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.pdb
+C:\Users\mramirez\Desktop\Todas las carpetas\Tareas\GitConEE\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\ref\DisenoVigas.Core.dll
+C:\Users\eecheto\Desktop\DisenoVigas\DisenoVigas.Core\bin\x64\Debug\net7.0\DisenoVigas.Core.deps.json
+C:\Users\eecheto\Desktop\DisenoVigas\DisenoVigas.Core\bin\x64\Debug\net7.0\DisenoVigas.Core.dll
+C:\Users\eecheto\Desktop\DisenoVigas\DisenoVigas.Core\bin\x64\Debug\net7.0\DisenoVigas.Core.pdb
+C:\Users\eecheto\Desktop\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.csproj.AssemblyReference.cache
+C:\Users\eecheto\Desktop\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eecheto\Desktop\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.AssemblyInfoInputs.cache
+C:\Users\eecheto\Desktop\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.AssemblyInfo.cs
+C:\Users\eecheto\Desktop\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.csproj.CoreCompileInputs.cache
+C:\Users\eecheto\Desktop\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.dll
+C:\Users\eecheto\Desktop\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\refint\DisenoVigas.Core.dll
+C:\Users\eecheto\Desktop\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.pdb
+C:\Users\eecheto\Desktop\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\ref\DisenoVigas.Core.dll

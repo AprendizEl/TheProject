@@ -16,7 +16,8 @@
           "MaterialDesignThemes": "5.1.0",
           "MaterialDesignXaml.DialogsHelper": "1.0.4",
           "Newtonsoft.Json": "13.0.3",
-          "System.Text.Json": "9.0.0-preview.7.24405.7"
+          "System.Text.Json": "9.0.0-preview.7.24405.7",
+          "DisenoSRDR": "1.0.0.0"
         },
         "runtime": {
           "Score Path.dll": {}
@@ -289,6 +290,14 @@
             "fileVersion": "9.0.24.40507"
           }
         }
+      },
+      "DisenoSRDR/1.0.0.0": {
+        "runtime": {
+          "DisenoSRDR.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -479,6 +488,11 @@
       "sha512": "sha512-yyyDS4GQyWiBNfvZW+67j/77dGR/iFWbKD1EfXaUw0XSuT98s2ONG0UqigFF+sJC6L40ef9SonQadYOGCoKrfA==",
       "path": "system.text.json/9.0.0-preview.7.24405.7",
       "hashPath": "system.text.json.9.0.0-preview.7.24405.7.nupkg.sha512"
+    },
+    "DisenoSRDR/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

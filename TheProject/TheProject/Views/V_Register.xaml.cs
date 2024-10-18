@@ -18,6 +18,8 @@ using TheProject.ViewModels;
 using LiveChartsCore.SkiaSharpView.WPF;
 using LiveChartsCore.SkiaSharpView.Painting;
 using SkiaSharp;
+using LiveChartsCore.Defaults;
+using LiveChartsCore.Kernel.Sketches;
 
 namespace TheProject.Views
 {
@@ -32,28 +34,45 @@ namespace TheProject.Views
             VM_VRegister vm = new VM_VRegister();
             DataContext = vm;
 
-            Charts.Series = Series;
-
+            Charts.Series = Series2;
         }
 
-        public ISeries[] Series { get; set; } =
-{
-    new LineSeries<Point>
-    {
-        Values = new List<Point>
+
+        public ISeries[] Series2 { get; set; } =
         {
-            new Point(10, 20),
-            new Point(30, 40),
-            new Point(50, 60)
-        },
-        GeometrySize = 1,
-        LineSmoothness = 0, // 0 para una línea sin suavizado
-        Stroke = new SolidColorPaint(SKColors.Red), // Color rojo
-        // Grosor de la línea
-    }
-};
+            new LineSeries<ObservablePoint>
+            {
+                Values = new List<ObservablePoint>
+                {
+                    new ObservablePoint(30, 20),
+                    new ObservablePoint(20, 40),
+                    new ObservablePoint(50, 60)
+                },
+                GeometrySize = 5,
+                Stroke = new SolidColorPaint(SKColors.Red),
+                LineSmoothness = 0 // 0 para línea sin suavizado
+            }
+        };
+
+
+   
 
     }
+
+
+
+    public class DataPoint
+    {
+        public double X { get; set; }
+        public double Y { get; set; }
+
+        public DataPoint(double x, double y)
+        {
+            X = x;
+            Y = y;
+        }
+    }
+
 }
 
 

@@ -44,6 +44,18 @@ namespace TheProject.Controls
             SetupChart();
         }
 
+        public ISeries[] Series { get; set; } =
+{
+    new LineSeries<double>
+    {
+       Values = new double[] { 3, 4, 6, 5, 8, 9, 4, 6 },
+
+        LineSmoothness = 0, // 0 para una línea sin suavizado
+        Stroke = new SolidColorPaint(SKColors.Red), // Color rojo
+        // Grosor de la línea
+    }
+};
+
         private void SetupChart()
         {
             var s = new List<string>();
@@ -56,14 +68,8 @@ namespace TheProject.Controls
             }
 
 
-            chart.Series = new ISeries[]
-            {
-               new LineSeries<double>
-               {
-                   Values = new double[] { 3, 4, 6, 5, 8, 9, 4, 6 },
+            chart.Series = Series;
 
-               }
-            };
 
             chart.XAxes = new Axis[]
             {

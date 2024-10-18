@@ -204,3 +204,6 @@ C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\obj\Debug\net8.0-windo
 C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\obj\Debug\net8.0-windows\Styles\Colors\StaticColors.baml
 C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\obj\Debug\net8.0-windows\Views\V_Register2.g.cs
 C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\obj\Debug\net8.0-windows\Views\V_Register2.baml
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\obj\Debug\net8.0-windows\Views\DisenoPage.g.cs
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\obj\Debug\net8.0-windows\Views\DisenoPage.baml
+C:\Users\eecheto\Desktop\TheProject\TheProject\TheProject\bin\Debug\net8.0-windows\DisenoSRDR.dll

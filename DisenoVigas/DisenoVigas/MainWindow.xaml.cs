@@ -6,9 +6,9 @@ namespace DisenoVigas;
 
 public sealed partial class MainWindow : WindowEx
 {
-    private readonly Microsoft.UI.Dispatching.DispatcherQueue dispatcherQueue;
+    private Microsoft.UI.Dispatching.DispatcherQueue dispatcherQueue;
 
-    private readonly UISettings settings;
+    private UISettings settings;
 
     public MainWindow()
     {

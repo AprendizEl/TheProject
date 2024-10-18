@@ -8,6 +8,8 @@ using System.Text;
 using CommunityToolkit.Mvvm.ComponentModel;
 
 using System.Threading.Tasks;
+using LiveChartsCore;
+using System.Windows.Forms;
 
 namespace TheProject.Models
 {
@@ -33,6 +35,8 @@ namespace TheProject.Models
 
 
 
+
+
     }
 
 
@@ -44,6 +48,9 @@ namespace TheProject.Models
 
         [ObservableProperty]
         private int d2;
+
+        [ObservableProperty]
+        private int b;
 
         [ObservableProperty]
         private int fc;
@@ -63,6 +70,7 @@ namespace TheProject.Models
         public Datos_DiseñoAFlexion()
         {
             D = 35;
+            B = 30;
             D2 = 5;
             Fc = 210;
             Fy = 4220;
@@ -79,34 +87,34 @@ namespace TheProject.Models
     {
 
         [ObservableProperty]
-        private int d;
+        private float d;
 
         [ObservableProperty]
-        private int d2;
+        private float d2;
 
         [ObservableProperty]
-        private int r;
+        private float r;
 
         [ObservableProperty]
-        private int b;
+        private float b;
 
         [ObservableProperty]
-        private int fc;
+        private float fc;
 
         [ObservableProperty]
-        private int fy;
+        private float fy;
 
         [ObservableProperty]
-        private int vu;
+        private float vu;
 
         [ObservableProperty]
-        private int t;
+        private float t;
 
         [ObservableProperty]
-        private string ramas;
+        private int ramas;
 
         [ObservableProperty]
-        private string barra;
+        private int barra;
 
         [ObservableProperty]
         private bool vigah;
@@ -114,21 +122,23 @@ namespace TheProject.Models
         [ObservableProperty]
         private bool vigaa;
 
+
         public Datos_Cortante()
         {
-            d = 0;
-            d2 = 5;
-            r = 0;
-            b = 0;
-            fc = 0;
-            fy = 0;
-            vu = 0;
-            t = 0;
-            ramas = "1";
-            barra = "1";
-            vigah = false;
-            vigaa = false;
+            D = 55;
+            D2 = 5;
+            R = 5;
+            B = 30;
+            Fc = 210;
+            Fy = 4220;
+            Vu = 8.7f;
+            T = 1.386f;
+            Ramas = 1;
+            Barra = 1;
+            Vigah = false;
+            Vigaa = false;
         }
+
 
     }
 

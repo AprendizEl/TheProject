@@ -76,7 +76,8 @@ namespace TheProject.ViewModels
                     model.Icon = IconChar.Usps;
                     model.PageView = ePageView.ViewChamps;
                     //App.window2.item7.Children.Clear();
-              
+                    App.main.item7.Children.Clear();
+                    App.main.item7.Children.Add(App.disenoPage); ;
 
                     break;
                 case ePageView.Graphic:

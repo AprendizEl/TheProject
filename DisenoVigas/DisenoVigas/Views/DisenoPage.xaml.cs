@@ -15,5 +15,6 @@ public sealed partial class DisenoPage : Page
     {
         ViewModel = App.GetService<DisenoViewModel>();
         InitializeComponent();
+       
     }
 }

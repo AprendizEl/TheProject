@@ -26,6 +26,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="DisenoSRDR">
+      <HintPath>..\..\..\Programa\7_Biblioteca\Librerias_FC\B_DiseñoDeVigas\bin\Debug\DisenoSRDR.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="Views\WhatsApp Image 2024-08-27 at 3.29.36 PM.jpeg" />
   </ItemGroup>
 

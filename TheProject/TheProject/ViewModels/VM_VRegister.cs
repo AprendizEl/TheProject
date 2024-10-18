@@ -15,16 +15,12 @@ namespace TheProject.ViewModels
     {
         public M_User usert { get; set; } = new M_User();
 
-        public Datos_DiseñoAFlexion disenoflexion { get; set; } = new Datos_DiseñoAFlexion();
 
-        public int D { get; set; } 
-
-        public Datos_Cortante Datos_Cortante { get; set; } = new Datos_Cortante();
 
         public VM_VRegister()
         {
 
-            D = disenoflexion.D;
+
 
             //summoner.Name = "Example";
             //summoner.Level = 0;
@@ -57,32 +53,33 @@ namespace TheProject.ViewModels
             //summoner.Region = LeagueRegion.TR;
             //summoner.Rank = LeagueRank.Unranked;
             //summoner.Phrase = "I am the best";
-            
+
 
 
         }
 
         public ISeries[] Series { get; set; } =
-{
-    new LineSeries<System.Windows.Point>
-    {
-        Values = new List<System.Windows.Point>
         {
-            new System.Windows.Point(10, 20),
-            new System.Windows.Point(30, 40),
-            new System.Windows.Point(50, 60)
-        },
-        GeometrySize = 1,
-        LineSmoothness = 0, // 0 para una línea sin suavizado
-        Stroke = new SolidColorPaint(SKColors.Red), // Color rojo
-        // Grosor de la línea
-    }
-};
+            new LineSeries<System.Windows.Point>
+            {
+                Values = new List<System.Windows.Point>
+                {
+                    new System.Windows.Point(10, 20),
+                    new System.Windows.Point(30, 40),
+                    new System.Windows.Point(50, 60)
+                },
+                GeometrySize = 1,
+                LineSmoothness = 0, // 0 para una línea sin suavizado
+                Stroke = new SolidColorPaint(SKColors.Red), // Color rojo
+                // Grosor de la línea
+            }
+        };
 
         private void OnSaveSummoner()
         {
-            App.register.Charts.UpdateLayout();
-            App.register.Series = Series;
+
+            App.register.Charts.Series = Series;
+            App.register.Charts.InvalidateVisual();
             //summoners.Add(new M_Summoner().build(summoner));
             //setD();
         }

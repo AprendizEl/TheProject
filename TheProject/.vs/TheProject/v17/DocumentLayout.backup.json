@@ -3,68 +3,99 @@
   "WorkspaceRootPath": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\views\\v_register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\views\\v_register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\views\\disenopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\views\\disenopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\controls\\grc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\controls\\grc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\views\\disenopage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\views\\disenopage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\views\\v_register.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\views\\v_register.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\viewmodels\\vm_disenopage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\viewmodels\\vm_disenopage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\viewmodels\\vm_vlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\viewmodels\\vm_vlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\viewmodels\\vm_vregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\viewmodels\\vm_vregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\views\\v_dashboard.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\views\\v_dashboard.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\controls\\grc.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\controls\\grc.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\views\\v_dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\views\\v_dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\models\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\models\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\views\\v_register2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\views\\v_register2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\models\\m_times.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\models\\m_times.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\viewmodels\\vm_wcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\viewmodels\\vm_wcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\views\\v_login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\views\\v_login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\viewmodels\\vm_revisionpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\viewmodels\\vm_revisionpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\models\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\models\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\viewmodels\\vm_vregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\viewmodels\\vm_vregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eecheto\\AppData\\Local\\Temp\\VSGeneratedDocuments\\c5626af3-bf69-0914-d32a-6ba84edd41df\\TheProject.Models.Datos_Dise\u00F1oAFlexion.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\theproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\theproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\views\\v_register.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\views\\v_register.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\views\\v_register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\views\\v_register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\viewmodels\\vm_wcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\viewmodels\\vm_wcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\views\\v_forme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\views\\v_forme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\controls\\grc.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\controls\\grc.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\controls\\grc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\controls\\grc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\views\\v_dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\views\\v_dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\views\\v_login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\views\\v_login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\views\\v_viewstats.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\views\\v_viewstats.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\views\\v_dashboard.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\views\\v_dashboard.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\views\\v_register2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\views\\v_register2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\viewmodels\\vm_vlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\viewmodels\\vm_vlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\models\\m_times.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\models\\m_times.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\styles\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -81,6 +112,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|c:\\users\\eecheto\\desktop\\theproject\\theproject\\theproject\\styles\\bluetheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E19DD1DC-5E86-47DE-8370-4236ED07B620}|TheProject\\TheProject.csproj|solutionrelative:theproject\\styles\\bluetheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\obj\\Debug\\net8.0-windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TheProject\\obj\\Debug\\net8.0-windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,7 +125,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,57 +133,134 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GrC.xaml",
-              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Controls\\GrC.xaml",
-              "RelativeDocumentMoniker": "TheProject\\Controls\\GrC.xaml",
-              "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Controls\\GrC.xaml",
-              "RelativeToolTip": "TheProject\\Controls\\GrC.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-16T20:03:26.498Z",
+              "DocumentIndex": 8,
+              "Title": "TheProject.Models.Datos_Dise\u00F1oAFlexion.g.cs [generado]",
+              "DocumentMoniker": "C:\\Users\\eecheto\\AppData\\Local\\Temp\\VSGeneratedDocuments\\c5626af3-bf69-0914-d32a-6ba84edd41df\\TheProject.Models.Datos_Dise\u00F1oAFlexion.g.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\VSGeneratedDocuments\\c5626af3-bf69-0914-d32a-6ba84edd41df\\TheProject.Models.Datos_Dise\u00F1oAFlexion.g.cs",
+              "ToolTip": "TheProject.Models.Datos_Dise\u00F1oAFlexion.g.cs [generado por CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenToolTip": "TheProject.Models.Datos_Dise\u00F1oAFlexion.g.cs [generado por CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator]",
+              "WhenOpened": "2024-10-18T13:07:57.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Tools.cs",
+              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Models\\Tools.cs",
+              "RelativeDocumentMoniker": "TheProject\\Models\\Tools.cs",
+              "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Models\\Tools.cs",
+              "RelativeToolTip": "TheProject\\Models\\Tools.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAADwv3AAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T20:15:20.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "V_Register.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\V_Register.xaml.cs",
-              "RelativeDocumentMoniker": "TheProject\\Views\\V_Register.xaml.cs",
-              "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\V_Register.xaml.cs",
-              "RelativeToolTip": "TheProject\\Views\\V_Register.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAADwvxEAAAAAAAAAAAAAAA==",
+              "Title": "VM_DisenoPage.cs",
+              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\ViewModels\\VM_DisenoPage.cs",
+              "RelativeDocumentMoniker": "TheProject\\ViewModels\\VM_DisenoPage.cs",
+              "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\ViewModels\\VM_DisenoPage.cs",
+              "RelativeToolTip": "TheProject\\ViewModels\\VM_DisenoPage.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAiwIgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T18:57:29.884Z",
+              "WhenOpened": "2024-10-17T15:39:44.992Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "V_Register.xaml",
-              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\V_Register.xaml",
-              "RelativeDocumentMoniker": "TheProject\\Views\\V_Register.xaml",
-              "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\V_Register.xaml*",
-              "RelativeToolTip": "TheProject\\Views\\V_Register.xaml*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-04T18:26:15.327Z",
+              "DocumentIndex": 3,
+              "Title": "VM_RevisionPage.cs",
+              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\ViewModels\\VM_RevisionPage.cs",
+              "RelativeDocumentMoniker": "TheProject\\ViewModels\\VM_RevisionPage.cs",
+              "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\ViewModels\\VM_RevisionPage.cs",
+              "RelativeToolTip": "TheProject\\ViewModels\\VM_RevisionPage.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAiwGQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T19:53:58.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "DisenoPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\DisenoPage.xaml.cs",
+              "RelativeDocumentMoniker": "TheProject\\Views\\DisenoPage.xaml.cs",
+              "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\DisenoPage.xaml.cs",
+              "RelativeToolTip": "TheProject\\Views\\DisenoPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T19:55:35.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "VM_VRegister.cs",
               "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\ViewModels\\VM_VRegister.cs",
               "RelativeDocumentMoniker": "TheProject\\ViewModels\\VM_VRegister.cs",
               "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\ViewModels\\VM_VRegister.cs",
               "RelativeToolTip": "TheProject\\ViewModels\\VM_VRegister.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAYwFIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T18:50:41.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\App.xaml.cs",
+              "RelativeDocumentMoniker": "TheProject\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\App.xaml.cs",
+              "RelativeToolTip": "TheProject\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T15:35:14.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\obj\\Debug\\net8.0-windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "TheProject\\obj\\Debug\\net8.0-windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\obj\\Debug\\net8.0-windows\\App.g.i.cs",
+              "RelativeToolTip": "TheProject\\obj\\Debug\\net8.0-windows\\App.g.i.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAzwC4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T15:35:08.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DisenoPage.xaml",
+              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\DisenoPage.xaml",
+              "RelativeDocumentMoniker": "TheProject\\Views\\DisenoPage.xaml",
+              "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\DisenoPage.xaml*",
+              "RelativeToolTip": "TheProject\\Views\\DisenoPage.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-17T15:32:06.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "V_Register.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\V_Register.xaml.cs",
+              "RelativeDocumentMoniker": "TheProject\\Views\\V_Register.xaml.cs",
+              "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\V_Register.xaml.cs",
+              "RelativeToolTip": "TheProject\\Views\\V_Register.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T18:57:29.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "M_Times.cs",
               "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Models\\M_Times.cs",
               "RelativeDocumentMoniker": "TheProject\\Models\\M_Times.cs",
@@ -156,24 +268,11 @@
               "RelativeToolTip": "TheProject\\Models\\M_Times.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T18:42:57.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T18:42:57.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "V_Login.xaml",
-              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\V_Login.xaml",
-              "RelativeDocumentMoniker": "TheProject\\Views\\V_Login.xaml",
-              "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\V_Login.xaml",
-              "RelativeToolTip": "TheProject\\Views\\V_Login.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-16T18:37:10.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 4,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\App.xaml",
               "RelativeDocumentMoniker": "TheProject\\App.xaml",
@@ -185,19 +284,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
+              "Title": "TheProject",
+              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\TheProject.csproj",
+              "RelativeDocumentMoniker": "TheProject\\TheProject.csproj",
+              "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\TheProject.csproj",
+              "RelativeToolTip": "TheProject\\TheProject.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-18T16:21:18.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "V_Login.xaml",
+              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\V_Login.xaml",
+              "RelativeDocumentMoniker": "TheProject\\Views\\V_Login.xaml",
+              "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\V_Login.xaml",
+              "RelativeToolTip": "TheProject\\Views\\V_Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-16T18:37:10.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "V_Register.xaml",
+              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\V_Register.xaml",
+              "RelativeDocumentMoniker": "TheProject\\Views\\V_Register.xaml",
+              "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\V_Register.xaml",
+              "RelativeToolTip": "TheProject\\Views\\V_Register.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-04T18:26:15.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "V_formE.xaml",
+              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\V_formE.xaml",
+              "RelativeDocumentMoniker": "TheProject\\Views\\V_formE.xaml",
+              "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\V_formE.xaml",
+              "RelativeToolTip": "TheProject\\Views\\V_formE.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-17T15:36:03.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "V_DashBoard.xaml",
               "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\V_DashBoard.xaml",
               "RelativeDocumentMoniker": "TheProject\\Views\\V_DashBoard.xaml",
               "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\V_DashBoard.xaml",
               "RelativeToolTip": "TheProject\\Views\\V_DashBoard.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-02T12:39:36.715Z",
+              "WhenOpened": "2024-10-02T12:39:36.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VM_WContainer.cs",
+              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\ViewModels\\VM_WContainer.cs",
+              "RelativeDocumentMoniker": "TheProject\\ViewModels\\VM_WContainer.cs",
+              "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\ViewModels\\VM_WContainer.cs",
+              "RelativeToolTip": "TheProject\\ViewModels\\VM_WContainer.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAYwE8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T12:36:34.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\MainWindow.xaml",
               "RelativeDocumentMoniker": "TheProject\\MainWindow.xaml",
@@ -208,20 +364,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 21,
               "Title": "VM_VLogin.cs",
               "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\ViewModels\\VM_VLogin.cs",
               "RelativeDocumentMoniker": "TheProject\\ViewModels\\VM_VLogin.cs",
               "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\ViewModels\\VM_VLogin.cs",
               "RelativeToolTip": "TheProject\\ViewModels\\VM_VLogin.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAADwvzMAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAUwDAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:23:59.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T13:23:59.896Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
               "Title": "V_DashBoard.xaml.cs",
               "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\V_DashBoard.xaml.cs",
               "RelativeDocumentMoniker": "TheProject\\Views\\V_DashBoard.xaml.cs",
@@ -229,37 +384,45 @@
               "RelativeToolTip": "TheProject\\Views\\V_DashBoard.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T21:01:23.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T21:01:23.904Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "GrC.xaml.cs",
               "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Controls\\GrC.xaml.cs",
               "RelativeDocumentMoniker": "TheProject\\Controls\\GrC.xaml.cs",
               "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Controls\\GrC.xaml.cs",
               "RelativeToolTip": "TheProject\\Controls\\GrC.xaml.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAwDIAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T21:01:38.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T21:01:38.176Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
+              "Title": "GrC.xaml",
+              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Controls\\GrC.xaml",
+              "RelativeDocumentMoniker": "TheProject\\Controls\\GrC.xaml",
+              "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Controls\\GrC.xaml",
+              "RelativeToolTip": "TheProject\\Controls\\GrC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-16T20:03:26.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "V_Register2.xaml",
               "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\V_Register2.xaml",
               "RelativeDocumentMoniker": "TheProject\\Views\\V_Register2.xaml",
               "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\V_Register2.xaml",
               "RelativeToolTip": "TheProject\\Views\\V_Register2.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-04T18:30:11.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T18:30:11.281Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "V_ViewStats.xaml",
               "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Views\\V_ViewStats.xaml",
               "RelativeDocumentMoniker": "TheProject\\Views\\V_ViewStats.xaml",
@@ -270,20 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "VM_WContainer.cs",
-              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\ViewModels\\VM_WContainer.cs",
-              "RelativeDocumentMoniker": "TheProject\\ViewModels\\VM_WContainer.cs",
-              "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\ViewModels\\VM_WContainer.cs",
-              "RelativeToolTip": "TheProject\\ViewModels\\VM_WContainer.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAuwDUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T12:36:34.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "GreenTheme.xaml",
               "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Styles\\GreenTheme.xaml",
               "RelativeDocumentMoniker": "TheProject\\Styles\\GreenTheme.xaml",
@@ -294,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "BlueTheme.xaml",
               "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Styles\\BlueTheme.xaml",
               "RelativeDocumentMoniker": "TheProject\\Styles\\BlueTheme.xaml",
@@ -305,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "LightTheme.xaml",
               "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Styles\\LightTheme.xaml",
               "RelativeDocumentMoniker": "TheProject\\Styles\\LightTheme.xaml",
@@ -316,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "DarkTheme.xaml",
               "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Styles\\DarkTheme.xaml",
               "RelativeDocumentMoniker": "TheProject\\Styles\\DarkTheme.xaml",
@@ -324,40 +474,6 @@
               "RelativeToolTip": "TheProject\\Styles\\DarkTheme.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-02T12:39:21.232Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "243951ea-6bae-4287-ab04-cbf76433982e",
-        "Display": 1,
-        "X": 195,
-        "Y": -49,
-        "Width": 1553,
-        "Height": 792,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Tools.cs",
-              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Models\\Tools.cs",
-              "RelativeDocumentMoniker": "TheProject\\Models\\Tools.cs",
-              "ToolTip": "C:\\Users\\eecheto\\Desktop\\TheProject\\TheProject\\TheProject\\Models\\Tools.cs",
-              "RelativeToolTip": "TheProject\\Models\\Tools.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T18:42:31.841Z",
-              "EditorCaption": ""
             }
           ]
         }

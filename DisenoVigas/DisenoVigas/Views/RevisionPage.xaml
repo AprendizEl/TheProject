@@ -11,8 +11,7 @@
         <Grid x:Name="ContentArea">
 
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="0.45*" />
-                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="200" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
@@ -168,54 +167,90 @@
 
 
             <Border Background="{ThemeResource CardBackgroundFillColorDefault}" BorderBrush="{ThemeResource CardStrokeColorDefault}"  BorderThickness="1" Padding="10" CornerRadius="5" Grid.Column="1" Grid.Row="0" Margin="10,0" >
-                <StackPanel >
 
-                    <TextBlock Text="Sección" HorizontalAlignment="Left"  />
+                <Grid>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="350" />
+                    </Grid.ColumnDefinitions>
 
 
-                  
+                    <StackPanel Grid.Column="0">
+
+                        <TextBlock Text="Sección" HorizontalAlignment="Left"  />
 
 
-                    <StackPanel HorizontalAlignment="Right" Orientation="Horizontal" >
-                        <StackPanel>
-                            <Grid Background="{StaticResource AccentAAFillColorDefaultBrush}" Width="150" Height="230" >
 
-                            </Grid>
 
-                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                                <TextBlock Text="d" FontSize="12" Margin="6,0" VerticalAlignment="Center" />
-                                <TextBox Text="30" Width="20" Height="10" FontSize="12" VerticalAlignment="Center"/>
-                                <TextBlock Text="cm" FontSize="12" Margin="4,0" VerticalAlignment="Center" />
+
+                        <StackPanel HorizontalAlignment="Right" Orientation="Horizontal" >
+                            <StackPanel>
+                                <Grid Background="{StaticResource AccentAAFillColorDefaultBrush}" Width="150" Height="230" >
+
+                                </Grid>
+
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <TextBlock Text="d" FontSize="12" Margin="6,0" VerticalAlignment="Center" />
+                                    <TextBox Text="30" Width="20" Height="10" FontSize="12" VerticalAlignment="Center"/>
+                                    <TextBlock Text="cm" FontSize="12" Margin="4,0" VerticalAlignment="Center" />
+                                </StackPanel>
+
                             </StackPanel>
+                            <StackPanel>
+                                <StackPanel Orientation="Horizontal" >
+                                    <TextBlock Text="d" FontSize="12" Margin="6,0" VerticalAlignment="Center" />
+                                    <TextBox Text="30" Width="20" Height="10" FontSize="12" VerticalAlignment="Center"/>
+                                    <TextBlock Text="cm" FontSize="12" Margin="4,0" VerticalAlignment="Center" />
+                                </StackPanel>
 
+                                <TextBlock Text="d" FontSize="12" Margin="6,0" VerticalAlignment="Center" />
+                                <AppBarSeparator Height="165" Background="Transparent" BorderBrush="Transparent"  />
+
+                                <StackPanel Orientation="Horizontal" >
+                                    <TextBlock Text="d" FontSize="12" Margin="6,0" VerticalAlignment="Center" />
+                                    <TextBox Text="30" Width="20" Height="10" FontSize="12" VerticalAlignment="Center"/>
+                                    <TextBlock Text="cm" FontSize="12" Margin="4,0" VerticalAlignment="Center" />
+                                </StackPanel>
+
+                                <TextBlock Text="d" FontSize="12" Margin="6,0" VerticalAlignment="Center" />
+
+                            </StackPanel>
                         </StackPanel>
-                        <StackPanel>
-                            <StackPanel Orientation="Horizontal" >
-                                <TextBlock Text="d" FontSize="12" Margin="6,0" VerticalAlignment="Center" />
-                                <TextBox Text="30" Width="20" Height="10" FontSize="12" VerticalAlignment="Center"/>
-                                <TextBlock Text="cm" FontSize="12" Margin="4,0" VerticalAlignment="Center" />
-                            </StackPanel>
-                            
-                            <TextBlock Text="d" FontSize="12" Margin="6,0" VerticalAlignment="Center" />
-                            <AppBarSeparator Height="165" Background="Transparent" BorderBrush="Transparent"  />
- 
-                            <StackPanel Orientation="Horizontal" >
-                                <TextBlock Text="d" FontSize="12" Margin="6,0" VerticalAlignment="Center" />
-                                <TextBox Text="30" Width="20" Height="10" FontSize="12" VerticalAlignment="Center"/>
-                                <TextBlock Text="cm" FontSize="12" Margin="4,0" VerticalAlignment="Center" />
-                            </StackPanel>
+                        
 
-                            <TextBlock Text="d" FontSize="12" Margin="6,0" VerticalAlignment="Center" />
 
-                        </StackPanel>
+
+
+
                     </StackPanel>
 
+                    <Grid Grid.Column="1" Background="Red" />
 
-                    
 
-                </StackPanel>
+
+                </Grid>
+                
+               
             </Border>
 
+            <Grid Grid.Column="1" Grid.Row="1" Margin="10">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                
+                <Border Background="{ThemeResource CardBackgroundFillColorDefault}" BorderBrush="{ThemeResource CardStrokeColorDefault}"  BorderThickness="1" Padding="10" CornerRadius="5" >
+
+
+
+                </Border>
+
+
+            </Grid>
+         
+            
         </Grid>
 
     </ScrollView>

@@ -1,0 +1,12 @@
+App.xbf
+MainWindow.xbf
+Styles\FontSizes.xbf
+Styles\TextBlock.xbf
+Styles\Thickness.xbf
+Views\DisenoPage.xbf
+Views\DisenoRevisionPage.xbf
+Views\MainPage.xbf
+Views\RevisionPage.xbf
+Views\SettingsPage.xbf
+Views\ShellPage.xbf
+Views\VigaAcoplePage.xbf

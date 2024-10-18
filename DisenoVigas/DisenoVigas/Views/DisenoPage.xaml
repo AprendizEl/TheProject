@@ -4,19 +4,21 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:lvc="using:LiveChartsCore.SkiaSharpView.WinUI"
+    xmlns:ctr="clr-namespace:DisenoVigas.Controls"
     mc:Ignorable="d">
 
     <ScrollView>
 
-        <Grid>
+        <Grid >
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="520" />
+                <ColumnDefinition Width="510"/>
                 <ColumnDefinition Width="*" />
 
             </Grid.ColumnDefinitions>
 
             <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
+                <RowDefinition Height="290" />
                 <RowDefinition Height="*" />
 
             </Grid.RowDefinitions>
@@ -30,35 +32,57 @@
                         <ColumnDefinition Width="*"   />
                     </Grid.ColumnDefinitions>
 
-                    <Grid Grid.Column="0"  >
+                    <Grid Grid.Column="0" >
 
                         <StackPanel>
                             <TextBlock Text="Sección" HorizontalAlignment="Center" Margin="0,10" />
-                            <Grid Background="DarkOrange" Margin="10" Width="150" Height="170" />
+                            <Grid Background="DarkOrange" Margin="10" Width="120" Height="170">
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Border Grid.Row="0" Grid.Column="0" Background="Green" Margin="10,18" CornerRadius="20"></Border>
+
+                                <Border Grid.Row="0" Grid.Column="2" Background="Green" Margin="10,18" CornerRadius="20"></Border>
+
+                                <Border Grid.Row="2" Grid.Column="0" Background="Green" Margin="10,18" CornerRadius="20"></Border>
+
+                                <Border Grid.Row="2" Grid.Column="2" Background="Green" Margin="10,18" CornerRadius="20"></Border>
+
+                            </Grid>
                             <TextBox Text="30" Width="10" x:Name="test"  />
                         </StackPanel>
 
                     </Grid>
 
-                    <StackPanel Grid.Column="1" Orientation="Horizontal">
+                    <StackPanel Grid.Column="1" Orientation="Horizontal" Margin="15,0">
 
                         <StackPanel Grid.Column="1" HorizontalAlignment="Left">
                             <TextBlock Text="Datos Requerido"  Margin="0,10" />
                             <StackPanel Orientation="Horizontal">
                                 <TextBlock Text="d:" FontSize="12" />
-                                <TextBox Text="30" Width="20" Height="10" FontSize="12" Margin="14,0,0,0"/>
+                                <TextBox Text="{Binding disenoflexion.D}" Width="20" Height="10" FontSize="12" Margin="14,0,0,0"/>
                                 <TextBlock Text="cm" FontSize="12" Margin="4,0,0,0" />
                             </StackPanel>
 
                             <StackPanel Orientation="Horizontal" >
                                 <TextBlock Text="f'c:" FontSize="12" />
-                                <TextBox Text="30" Width="20" Height="10" FontSize="12" Margin="10,0,0,0"/>
+                                <TextBox Text="{Binding disenoflexion.Fc}" Width="20" Height="10" FontSize="12" Margin="10,0,0,0"/>
                                 <TextBlock Text="kgf/cm2" FontSize="12" Margin="4,0,0,0" />
                             </StackPanel>
 
                             <StackPanel Orientation="Horizontal">
                                 <TextBlock Text="Mu:" FontSize="12" />
-                                <TextBox Text="30" Width="20" Height="10" FontSize="12" Margin="4,0,0,0"/>
+                                <TextBox Text="{Binding disenoflexion.Mu}" Width="20" Height="10" FontSize="12" Margin="4,0,0,0"/>
                                 <TextBlock Text="tf-m" FontSize="12" Margin="4,0,0,0" />
                             </StackPanel>
 
@@ -76,13 +100,13 @@
 
                             <StackPanel Orientation="Horizontal">
                                 <TextBlock Text="d':" FontSize="12" />
-                                <TextBox Text="30" Width="20" Height="10" FontSize="12"  Margin="4,0,0,0"/>
+                                <TextBox Text="{Binding disenoflexion.D2}" Width="20" Height="10" FontSize="12"  Margin="4,0,0,0"/>
                                 <TextBlock Text="cm" FontSize="12"  Margin="4,0,0,0" />
                             </StackPanel>
 
                             <StackPanel Orientation="Horizontal">
                                 <TextBlock Text="fy:" FontSize="12" />
-                                <TextBox Text="30" Width="20" Height="10" FontSize="12"  Margin="4,0,0,0"/>
+                                <TextBox Text="{Binding disenoflexion.Fy}" Width="20" Height="10" FontSize="12"  Margin="4,0,0,0"/>
                                 <TextBlock Text="kgf/cm2" FontSize="12"  Margin="4,0,0,0"/>
                             </StackPanel>
 
@@ -177,13 +201,12 @@
 
                         </StackPanel>
 
-                        <StackPanel Grid.Column="1">
-                            <TextBlock Text="Diagrama de Deformaciones" />
-                            <Grid Background="Red" Width="50" Height="50" />
-                        </StackPanel>
+                        <Grid Background="Red" Grid.Column="1">
+
+                            <lvc:CartesianChart Name="charts"/>
 
 
-
+                        </Grid>
 
                     </Grid>
 
@@ -192,7 +215,7 @@
 
             </Border>
 
-            <Border Grid.Column="0" Grid.Row="1"  Background="{ThemeResource CardBackgroundFillColorDefault}" BorderBrush="{ThemeResource CardStrokeColorDefault}" CornerRadius="5" BorderThickness="1" Margin="0,10">
+            <Border Grid.Column="0" Grid.Row="1"  Background="{ThemeResource CardBackgroundFillColorDefault}" BorderBrush="{ThemeResource CardStrokeColorDefault}" CornerRadius="5" BorderThickness="1" Margin="0,6">
 
                 <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
 
@@ -208,6 +231,27 @@
                         <TextBlock Text="Sección" HorizontalAlignment="Center" Margin="0,10" />
                         <Grid Background="DarkOrange" Margin="10" Width="120" Height="170">
 
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <Border Grid.Row="0" Grid.Column="0" Background="Green" Margin="10,18" CornerRadius="20"></Border>
+
+                            <Border Grid.Row="0" Grid.Column="2" Background="Green" Margin="10,18" CornerRadius="20"></Border>
+
+                            <Border Grid.Row="2" Grid.Column="0" Background="Green" Margin="10,18" CornerRadius="20"></Border>
+
+                            <Border Grid.Row="2" Grid.Column="2" Background="Green" Margin="10,18" CornerRadius="20"></Border>
+
                         </Grid>
                         <TextBox Text="30" Width="10" />
 
@@ -221,27 +265,27 @@
                             <StackPanel>
                                 <StackPanel Orientation="Horizontal">
                                     <TextBlock Text="d:" FontSize="12"  />
-                                    <TextBox Text="30" Width="20" Height="10" FontSize="12" Margin="7,0,0,0"/>
+                                    <TextBox Text="{Binding datoscortante.D}" Width="20" Height="10" FontSize="12" Margin="7,0,0,0"/>
                                     <TextBlock Text="cm" FontSize="12" Margin="4,0,0,0" />
                                 </StackPanel>
 
                                 <StackPanel Orientation="Horizontal" >
                                     <TextBlock Text="r:" FontSize="12" />
-                                    <TextBox Text="30" Width="20" Height="10" FontSize="12" Margin="10,0,0,0"/>
+                                    <TextBox Text="{Binding datoscortante.R}" Width="20" Height="10" FontSize="12" Margin="10,0,0,0"/>
                                     <TextBlock Text="cm" FontSize="12" Margin="4,0,0,0" />
                                 </StackPanel>
 
 
                                 <StackPanel Orientation="Horizontal" >
                                     <TextBlock Text="fy:" FontSize="12" />
-                                    <TextBox Text="30" Width="20" Height="10" FontSize="12" Margin="4,0,0,0"/>
+                                    <TextBox Text="{Binding datoscortante.Fy}" Width="20" Height="10" FontSize="12" Margin="4,0,0,0"/>
                                     <TextBlock Text="kgf/cm2" FontSize="12" Margin="4,0,0,0" />
                                 </StackPanel>
 
 
                                 <StackPanel Orientation="Horizontal">
                                     <TextBlock Text="T:" FontSize="12" />
-                                    <TextBox Text="30" Width="20" Height="10" FontSize="12" Margin="8,0,0,0"/>
+                                    <TextBox Text="{Binding datoscortante.T}" Width="20" Height="10" FontSize="12" Margin="8,0,0,0"/>
                                     <TextBlock Text="tf-m" FontSize="12" Margin="4,0,0,0"/>
                                 </StackPanel>
 
@@ -253,7 +297,7 @@
 
                                 <StackPanel Orientation="Horizontal">
                                     <TextBlock Text="d':" FontSize="12" />
-                                    <TextBox Text="30" Width="20" Height="10" FontSize="12" Margin="7,0,0,0"/>
+                                    <TextBox Text="{Binding datoscortante.D2}" Width="20" Height="10" FontSize="12" Margin="7,0,0,0"/>
                                     <TextBlock Text="cm" FontSize="12" Margin="4,0,0,0" />
                                 </StackPanel>
 
@@ -261,7 +305,7 @@
 
                                 <StackPanel Orientation="Horizontal" >
                                     <TextBlock Text="f'c:" FontSize="12" />
-                                    <TextBox Text="30" Width="20" Height="10" FontSize="12" Margin="5.5,0,0,0"/>
+                                    <TextBox Text="{Binding datoscortante.Fy}" Width="20" Height="10" FontSize="12" Margin="5.5,0,0,0"/>
                                     <TextBlock Text="kgf/cm2" FontSize="12" Margin="4,0,0,0"/>
                                 </StackPanel>
 
@@ -269,7 +313,7 @@
 
                                 <StackPanel Orientation="Horizontal">
                                     <TextBlock Text="Vu:" FontSize="12" />
-                                    <TextBox Text="30" Width="20" Height="10" FontSize="12" Margin="4,0,0,0"/>
+                                    <TextBox Text="{Binding datoscortante.Vu}" Width="20" Height="10" FontSize="12" Margin="4,0,0,0"/>
                                     <TextBlock Text="tf" FontSize="12"  Margin="4,0,0,0"/>
                                 </StackPanel>
 
@@ -281,7 +325,7 @@
 
 
 
-                        <StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,25">
 
                             <StackPanel HorizontalAlignment="Center">
                                 <StackPanel Orientation="Horizontal">
@@ -296,6 +340,12 @@
                                 </StackPanel>
 
                                 <Button Width="140" HorizontalAlignment="Center" Content="Diseñar" Margin="0,6" />
+                            </StackPanel>
+
+
+                            <StackPanel HorizontalAlignment="Center" Margin="15,15">
+                                <CheckBox Content="Viga Hiperastica" />
+                                <CheckBox Content="Viga Alta" />
                             </StackPanel>
 
                         </StackPanel>
@@ -321,13 +371,16 @@
                                 <StackPanel Orientation="Horizontal" Margin="0,0,0,15" >
 
                                     <StackPanel Orientation="Horizontal">
-                                        <TextBlock Text="As= " />
+                                        <TextBlock Text="q " Margin="2,0" />
+                                        <TextBlock Text="Vc= " />
                                         <TextBlock Text="OOO" />
                                     </StackPanel>
 
                                     <StackPanel Orientation="Horizontal" Margin="50,0,0,0">
-                                        <TextBlock Text="E's= " />
+                                        <TextBlock Text="q" />
+                                        <TextBlock Text="Vsmax= " />
                                         <TextBlock Text="OOO" />
+                                        <TextBlock Text="tf" />
                                     </StackPanel>
 
 
@@ -336,34 +389,81 @@
                                 <StackPanel Orientation="Horizontal" Margin="0,0,0,15">
 
                                     <StackPanel Orientation="Horizontal">
-                                        <TextBlock Text="As= " ToolTipService.ToolTip="Locuron" />
+                                        <TextBlock Text="q " Margin="2,0" />
+                                        <TextBlock Text="Vs= " />
                                         <TextBlock Text="OOO" />
                                     </StackPanel>
 
                                     <StackPanel Orientation="Horizontal" Margin="50,0,0,0">
-                                        <TextBlock Text="E's= " />
+                                        <TextBlock Text="q" />
+                                        <TextBlock Text="Vnmax= " />
                                         <TextBlock Text="OOO" />
+                                        <TextBlock Text="tf" />
                                     </StackPanel>
 
 
                                 </StackPanel>
 
                                 <StackPanel Orientation="Horizontal" Margin="0,0,0,15">
-                                    <TextBlock Text="P'= " />
-                                    <TextBlock Text="OOO" />
+
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="Vs= " />
+                                        <TextBlock Text="OOO" />
+                                        <TextBlock Text="cm" Margin="0" />
+                                    </StackPanel>
+
+                                    <StackPanel Orientation="Horizontal" Margin="50,0,0,0">
+                                        <TextBlock Text="*separacion mayor a la maxima permisible*" />
+                         
+                                    </StackPanel>
+
+
                                 </StackPanel>
 
                                 <StackPanel Orientation="Horizontal" Margin="0,0,0,15">
-                                    <TextBlock Text="P'= " />
-                                    <TextBlock Text="OOO" />
+
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="q " Margin="2,0" />
+                                        <TextBlock Text="Vs= " />
+                                        <TextBlock Text="OOO" />
+                                    </StackPanel>
+
+                                    <StackPanel Orientation="Horizontal" Margin="50,0,0,0">
+                          
+                                        <TextBlock Text="Smax= " />
+                                        <TextBlock Text="OOO" />
+                                        <TextBlock Text="cm" Margin="2,0" />
+                                    </StackPanel>
+
+
                                 </StackPanel>
 
 
                             </StackPanel>
 
 
-                            <TextBlock Text="LOCURAAAAAAAAAAAAAAAAAAAAAAAAA" HorizontalAlignment="Center" />
-                            <TextBlock Text="LOCURAAAAAAAAAAAAAAAAAAAAAAAAA" HorizontalAlignment="Center" />
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <StackPanel>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                        <TextBlock Text="Esfuerzo Inducido= " />
+                                        <TextBlock Text=" OOO" />
+                                        <TextBlock Text=" tf-m" />
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                        <TextBlock Text="Esfuerzo Limite= " />
+                                        <TextBlock Text=" OOO" />
+                                        <TextBlock Text=" tf-m" />
+                                    </StackPanel>
+                                    
+                                    
+
+                                </StackPanel>
+
+                                <TextBlock Text=" tf-m" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+                            </StackPanel>
+                            
+                           
 
 
                         </StackPanel>
