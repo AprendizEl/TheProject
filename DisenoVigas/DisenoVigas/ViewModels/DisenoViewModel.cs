@@ -8,7 +8,7 @@ using LiveChartsCore.SkiaSharpView.Painting;
 using LiveChartsCore.SkiaSharpView;
 using LiveChartsCore;
 using SkiaSharp;
-using VigaRD;
+
 using Windows.UI.Popups;
 using static System.Net.Mime.MediaTypeNames;
 
@@ -33,13 +33,13 @@ public partial class DisenoViewModel : ObservableRecipient
         test = new RelayCommand(DiseñoVigas);
 
 
-        view = App.GetService<DisenoPage>();
+        //view = App.GetService<DisenoPage>();
        
         
     }
 
 
-    public ICommand test
+    public IRelayCommand test
     {
         get;
     }
@@ -129,9 +129,9 @@ public partial class DisenoViewModel : ObservableRecipient
         // Limpiar las series actuales
         SeriesChart = newSeries.ToArray();
 
-        view.charts.Series = SeriesChart;
+        //view.charts.Series = SeriesChart;
 
-        view.charts.UpdateLayout();
+        //view.charts.UpdateLayout();
     }
 
     private void DiseñoVigas()
@@ -150,94 +150,94 @@ public partial class DisenoViewModel : ObservableRecipient
         //Panel4.Visible = true;
         //LB_Deformaciones.Visible = true;
 
-        Viga Viga1 = new Viga(b, h, dprima, dprima, fc, fy, Mu, VigaSimica, 0.004f, VigaSimica2);
-        Viga1.Diseñar();
-        es = Viga1.es;
-        esP = Viga1.esP;
+        //Viga Viga1 = new Viga(b, h, dprima, dprima, fc, fy, Mu, VigaSimica, 0.004f, VigaSimica2);
+        //Viga1.Diseñar();
+        //es = Viga1.es;
+        //esP = Viga1.esP;
 
-        //SR_DR.Visible = true;
-
-
-
-        if (Viga1.VSD == VigaSRDR.SR)
-        {
-            //SR_DR.Text = "VIGA SIMPLEMENTE REFORZADA";
-            //SR_DR.ForeColor = Color.Green;
-            //OvalShape1.Visible = true;
-            //OvalShape2.Visible = true;
-            //OvalShape4.Visible = false;
-            //OvalShape3.Visible = false;
-        }
-        else
-        {
-            //OvalShape4.Visible = true;
-            //OvalShape3.Visible = true;
-            //SR_DR.Text = "VIGA DOBLEMENTE REFORZADA";
-            //SR_DR.ForeColor = Color.Blue;
-        }
-
-        if (Viga1.Resultados.Rest.Item1.Contains("Cuantia"))
-        {
-            //PictureBox1.Visible = true;
-            //string Resultado = Viga1.Resultados.Rest.Item1;
-            //PDimensionesInsuficientes.Visible = true;
-            //PDimensionesInsuficientes.BringToFront();
-            //LB_Deformaciones.Visible = false;
-        }
-        else
-        {
-            //PictureBox1.Visible = false;
-            //PDimensionesInsuficientes.Visible = false;
-            //LB_Deformaciones.Visible = true;
-        }
+        ////SR_DR.Visible = true;
 
 
 
-        var newSeries = new List<LineSeries<ObservablePoint>>
-            {
-                new LineSeries<ObservablePoint>
-                {
-                    Values = new List<ObservablePoint>
-                    {
-                        new ObservablePoint(0, h ),
-                        new ObservablePoint(0.003, h ),
-                        new ObservablePoint(0, h - Viga1.c),
-                        new ObservablePoint(-(0.003 * (h - Viga1.c) / Viga1.c), 0 ),
-                        new ObservablePoint( 0, 0)
-                    },
-                    GeometrySize = 0,
-                    Fill = null,
-                    Stroke = new SolidColorPaint(SKColors.Blue),
-                    LineSmoothness = 0 // 0 para línea sin suavizado
-                },
-                new LineSeries<ObservablePoint>
-                {
-                   Values = new List<ObservablePoint>
-                   {
-                        new ObservablePoint( 0, h - d ),
-                        new ObservablePoint(-es, h - d )
-                   },
-                   GeometrySize = 0,
-                   Fill = null,
-                   Stroke = new SolidColorPaint(SKColors.DarkBlue),
-                   LineSmoothness = 0 // 0 para línea sin suavizado
-                },
-               new LineSeries<ObservablePoint>
-               {
-                    Values = new List<ObservablePoint>
-                    {
-                        new ObservablePoint(0, d),
-                        new ObservablePoint( esP, d),
-                    },
-                    GeometrySize = 0,
-                    Fill = null,
-                    Stroke = new SolidColorPaint(SKColors.Red),
-                    LineSmoothness = 0 // 0 para línea sin suavizado
-               }
-            };
+        //if (Viga1.VSD == VigaSRDR.SR)
+        //{
+        //    //SR_DR.Text = "VIGA SIMPLEMENTE REFORZADA";
+        //    //SR_DR.ForeColor = Color.Green;
+        //    //OvalShape1.Visible = true;
+        //    //OvalShape2.Visible = true;
+        //    //OvalShape4.Visible = false;
+        //    //OvalShape3.Visible = false;
+        //}
+        //else
+        //{
+        //    //OvalShape4.Visible = true;
+        //    //OvalShape3.Visible = true;
+        //    //SR_DR.Text = "VIGA DOBLEMENTE REFORZADA";
+        //    //SR_DR.ForeColor = Color.Blue;
+        //}
 
-        double pt = Viga1.Resultados.Item6 / (d * b);
-        double pc = Viga1.Resultados.Item7 / (d * b);
+        //if (Viga1.Resultados.Rest.Item1.Contains("Cuantia"))
+        //{
+        //    //PictureBox1.Visible = true;
+        //    //string Resultado = Viga1.Resultados.Rest.Item1;
+        //    //PDimensionesInsuficientes.Visible = true;
+        //    //PDimensionesInsuficientes.BringToFront();
+        //    //LB_Deformaciones.Visible = false;
+        //}
+        //else
+        //{
+        //    //PictureBox1.Visible = false;
+        //    //PDimensionesInsuficientes.Visible = false;
+        //    //LB_Deformaciones.Visible = true;
+        //}
+
+
+
+        //var newSeries = new List<LineSeries<ObservablePoint>>
+        //    {
+        //        new LineSeries<ObservablePoint>
+        //        {
+        //            Values = new List<ObservablePoint>
+        //            {
+        //                new ObservablePoint(0, h ),
+        //                new ObservablePoint(0.003, h ),
+        //                new ObservablePoint(0, h - Viga1.c),
+        //                new ObservablePoint(-(0.003 * (h - Viga1.c) / Viga1.c), 0 ),
+        //                new ObservablePoint( 0, 0)
+        //            },
+        //            GeometrySize = 0,
+        //            Fill = null,
+        //            Stroke = new SolidColorPaint(SKColors.Blue),
+        //            LineSmoothness = 0 // 0 para línea sin suavizado
+        //        },
+        //        new LineSeries<ObservablePoint>
+        //        {
+        //           Values = new List<ObservablePoint>
+        //           {
+        //                new ObservablePoint( 0, h - d ),
+        //                new ObservablePoint(-es, h - d )
+        //           },
+        //           GeometrySize = 0,
+        //           Fill = null,
+        //           Stroke = new SolidColorPaint(SKColors.DarkBlue),
+        //           LineSmoothness = 0 // 0 para línea sin suavizado
+        //        },
+        //       new LineSeries<ObservablePoint>
+        //       {
+        //            Values = new List<ObservablePoint>
+        //            {
+        //                new ObservablePoint(0, d),
+        //                new ObservablePoint( esP, d),
+        //            },
+        //            GeometrySize = 0,
+        //            Fill = null,
+        //            Stroke = new SolidColorPaint(SKColors.Red),
+        //            LineSmoothness = 0 // 0 para línea sin suavizado
+        //       }
+        //    };
+
+        //double pt = Viga1.Resultados.Item6 / (d * b);
+        //double pc = Viga1.Resultados.Item7 / (d * b);
 
         //Label16.Text = Viga1.fi.ToString("#0.000");
         //Label29.Text = pt.ToString("#0.0000");
@@ -258,7 +258,7 @@ public partial class DisenoViewModel : ObservableRecipient
         //es_L.Text = es.ToString("#0.00000");
         //esP_L.Text = esP.ToString("#0.00000");
 
-        UpdateSeries(newSeries);
+        //UpdateSeries(newSeries);
 
         //RevisionVigas.Graficar_DiagramaDeforma(Chart1, Points, PointsDefT, PointsDeformC);
     }
@@ -289,8 +289,56 @@ public partial class DisenoViewModel : ObservableRecipient
     //}
 
 
+    #region como reparar, Microsoft.UI.x..interop.targets
 
+        //<CompileXaml Condition = "'$(UseXamlCompilerExecutable)' != 'true'"
+        //        LanguageSourceExtension="$(DefaultLanguageSourceExtension)"
+        //        Language="$(XamlLanguage)"
+        //        RootNamespace="$(RootNamespace)"
+        //        XamlPages="@(Page)"
+        //        XamlApplications="@(ApplicationDefinition)"
+        //        PriIndexName="$(PriIndexName)"
+        //        ProjectName="$(XamlProjectName)"
+        //        IsPass1="True"
+        //        CodeGenerationControlFlags="$(XamlCodeGenerationControlFlags)"
+        //        ProjectPath="$(MSBuildProjectFullPath)"
+        //        CIncludeDirectories="$(XamlCppIncludeDirectories)"
+        //        OutputPath="$(XamlGeneratedOutputPath)"
+        //        OutputType="$(OutputType)"
+        //        ReferenceAssemblyPaths="@(ReferenceAssemblyPaths)"
+        //        ReferenceAssemblies="@(ReferencePath)"
+        //        ForceSharedStateShutdown="False"
+        //        CompileMode="RealBuildPass1"
+        //        XAMLFingerprint="$(XAMLFingerprint)"
+        //        UseVCMetaManaged="$(UseVCMetaManaged)"
+        //        FingerprintIgnorePaths="$(XAMLFingerprintIgnorePaths)"
+        //        VCInstallDir="$(VCInstallDir)"
+        //        SavedStateFile="$(XamlSavedStateFilePath)"
+        //        SuppressWarnings="$(SuppressXamlWarnings)"
+        //        TargetPlatformMinVersion="$(TargetPlatformMinVersion)"
+        //        WindowsSdkPath="$(WindowsSdkPath)"
+        //        XamlResourceMapName="$(XamlResourceMapName)"
+        //        XamlComponentResourceLocation="$(XamlComponentResourceLocation)"
+        //        FeatureControlFlags="@(XamlFeatureControlFlags)"
+        //        VCInstallPath32="$(VCInstallPath32)"
+        //        VCInstallPath64="$(VCInstallPath64)"
+        //        GenXbfPath="$(GenXbfPath)"
+        //        PrecompiledHeaderFile="$(PrecompiledHeaderFile)" >
 
+        //        <Output Condition = " '$(ManagedAssembly)'!='false' " ItemName="Compile"   TaskParameter="GeneratedCodeFiles" />
+
+        //        <!--
+        //            FileWrites is used in Microsoft.Common.Targets for "Clean" build
+        //        -->
+        //        <Output ItemName = "FileWrites" TaskParameter="GeneratedCodeFiles" />
+        //        <Output ItemName = "FileWrites" TaskParameter="GeneratedXamlFiles" />
+        //        <Output ItemName = "FileWrites" TaskParameter="GeneratedXbfFiles" />
+        //        <Output ItemName = "_GeneratedCodeFiles" TaskParameter="GeneratedCodeFiles" />
+        //        <Output ItemName = "_GeneratedXamlFiles" TaskParameter="GeneratedXamlFiles" />
+        //        <Output ItemName = "_GeneratedXbfFiles" TaskParameter="GeneratedXbfFiles" />
+        //    </CompileXaml>
+
+        #endregion
 
 
 }

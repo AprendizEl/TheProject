@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DisenoVigas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+690c01963973f4a1ad29ccfd892af36ff924b15a")]
 [assembly: System.Reflection.AssemblyProductAttribute("DisenoVigas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DisenoVigas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

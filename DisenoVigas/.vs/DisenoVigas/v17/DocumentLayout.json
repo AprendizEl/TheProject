@@ -1,46 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\",
+  "WorkspaceRootPath": "C:\\Users\\jugad\\OneDrive\\Escritorio\\TheProject\\DisenoVigas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|c:\\users\\eecheto\\desktop\\disenovigas\\disenovigas\\viewmodels\\disenoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|solutionrelative:disenovigas\\viewmodels\\disenoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|c:\\users\\eecheto\\desktop\\disenovigas\\disenovigas\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|solutionrelative:disenovigas\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|c:\\users\\eecheto\\desktop\\disenovigas\\disenovigas\\viewmodels\\disenorevisionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|solutionrelative:disenovigas\\viewmodels\\disenorevisionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|c:\\users\\eecheto\\desktop\\disenovigas\\disenovigas\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|solutionrelative:disenovigas\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|c:\\users\\eecheto\\desktop\\disenovigas\\disenovigas\\models\\disenomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|solutionrelative:disenovigas\\models\\disenomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|c:\\users\\eecheto\\desktop\\disenovigas\\disenovigas\\views\\disenopage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|solutionrelative:disenovigas\\views\\disenopage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|c:\\users\\eecheto\\desktop\\disenovigas\\disenovigas\\views\\disenopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|c:\\users\\jugad\\onedrive\\escritorio\\theproject\\disenovigas\\disenovigas\\views\\disenopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|solutionrelative:disenovigas\\views\\disenopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|c:\\users\\eecheto\\desktop\\disenovigas\\disenovigas\\controls\\graphiccontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|solutionrelative:disenovigas\\controls\\graphiccontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|c:\\users\\jugad\\onedrive\\escritorio\\theproject\\disenovigas\\disenovigas\\views\\disenopage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|solutionrelative:disenovigas\\views\\disenopage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|c:\\users\\eecheto\\desktop\\disenovigas\\disenovigas\\controls\\graphiccontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|solutionrelative:disenovigas\\controls\\graphiccontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|c:\\users\\jugad\\onedrive\\escritorio\\theproject\\disenovigas\\disenovigas\\views\\settingspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|solutionrelative:disenovigas\\views\\settingspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|c:\\users\\eecheto\\desktop\\disenovigas\\disenovigas\\views\\vigaacoplepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|solutionrelative:disenovigas\\views\\vigaacoplepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|c:\\users\\jugad\\onedrive\\escritorio\\theproject\\disenovigas\\disenovigas\\viewmodels\\disenoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BB64A2-59F5-465D-AB7E-9B0E1E7A272B}|DisenoVigas\\DisenoVigas.csproj|solutionrelative:disenovigas\\viewmodels\\disenoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,140 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\App.xaml.cs",
-              "RelativeDocumentMoniker": "DisenoVigas\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\App.xaml.cs",
-              "RelativeToolTip": "DisenoVigas\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABAAAAAAAAAAA==",
+              "Title": "DisenoPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jugad\\OneDrive\\Escritorio\\TheProject\\DisenoVigas\\DisenoVigas\\Views\\DisenoPage.xaml.cs",
+              "RelativeDocumentMoniker": "DisenoVigas\\Views\\DisenoPage.xaml.cs",
+              "ToolTip": "C:\\Users\\jugad\\OneDrive\\Escritorio\\TheProject\\DisenoVigas\\DisenoVigas\\Views\\DisenoPage.xaml.cs",
+              "RelativeToolTip": "DisenoVigas\\Views\\DisenoPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T19:07:38.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DisenoViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\ViewModels\\DisenoViewModel.cs",
-              "RelativeDocumentMoniker": "DisenoVigas\\ViewModels\\DisenoViewModel.cs",
-              "ToolTip": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\ViewModels\\DisenoViewModel.cs",
-              "RelativeToolTip": "DisenoVigas\\ViewModels\\DisenoViewModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T18:40:34.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "DisenoVigas\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "DisenoVigas\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T18:40:33.491Z",
+              "WhenOpened": "2024-10-21T00:12:46.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DisenoRevisionViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\ViewModels\\DisenoRevisionViewModel.cs",
-              "RelativeDocumentMoniker": "DisenoVigas\\ViewModels\\DisenoRevisionViewModel.cs",
-              "ToolTip": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\ViewModels\\DisenoRevisionViewModel.cs",
-              "RelativeToolTip": "DisenoVigas\\ViewModels\\DisenoRevisionViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Title": "SettingsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jugad\\OneDrive\\Escritorio\\TheProject\\DisenoVigas\\DisenoVigas\\Views\\SettingsPage.xaml.cs",
+              "RelativeDocumentMoniker": "DisenoVigas\\Views\\SettingsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\jugad\\OneDrive\\Escritorio\\TheProject\\DisenoVigas\\DisenoVigas\\Views\\SettingsPage.xaml.cs",
+              "RelativeToolTip": "DisenoVigas\\Views\\SettingsPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T18:16:30.986Z",
+              "WhenOpened": "2024-10-21T00:12:36.898Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DisenoPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\Views\\DisenoPage.xaml.cs",
-              "RelativeDocumentMoniker": "DisenoVigas\\Views\\DisenoPage.xaml.cs",
-              "ToolTip": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\Views\\DisenoPage.xaml.cs",
-              "RelativeToolTip": "DisenoVigas\\Views\\DisenoPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "DisenoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\jugad\\OneDrive\\Escritorio\\TheProject\\DisenoVigas\\DisenoVigas\\ViewModels\\DisenoViewModel.cs",
+              "RelativeDocumentMoniker": "DisenoVigas\\ViewModels\\DisenoViewModel.cs",
+              "ToolTip": "C:\\Users\\jugad\\OneDrive\\Escritorio\\TheProject\\DisenoVigas\\DisenoVigas\\ViewModels\\DisenoViewModel.cs",
+              "RelativeToolTip": "DisenoVigas\\ViewModels\\DisenoViewModel.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAkwH4AAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T17:21:00.495Z",
+              "WhenOpened": "2024-10-21T00:12:02.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GraphicControl.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\Controls\\GraphicControl.xaml.cs",
-              "RelativeDocumentMoniker": "DisenoVigas\\Controls\\GraphicControl.xaml.cs",
-              "ToolTip": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\Controls\\GraphicControl.xaml.cs",
-              "RelativeToolTip": "DisenoVigas\\Controls\\GraphicControl.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T17:07:47.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GraphicControl.xaml",
-              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\Controls\\GraphicControl.xaml",
-              "RelativeDocumentMoniker": "DisenoVigas\\Controls\\GraphicControl.xaml",
-              "ToolTip": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\Controls\\GraphicControl.xaml",
-              "RelativeToolTip": "DisenoVigas\\Controls\\GraphicControl.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-18T17:06:33.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "DisenoPage.xaml",
-              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\Views\\DisenoPage.xaml",
+              "DocumentMoniker": "C:\\Users\\jugad\\OneDrive\\Escritorio\\TheProject\\DisenoVigas\\DisenoVigas\\Views\\DisenoPage.xaml",
               "RelativeDocumentMoniker": "DisenoVigas\\Views\\DisenoPage.xaml",
-              "ToolTip": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\Views\\DisenoPage.xaml",
+              "ToolTip": "C:\\Users\\jugad\\OneDrive\\Escritorio\\TheProject\\DisenoVigas\\DisenoVigas\\Views\\DisenoPage.xaml",
               "RelativeToolTip": "DisenoVigas\\Views\\DisenoPage.xaml",
-              "ViewState": "AgIAALEAAAAAAAAAAAAAAM0AAAA8AAAAAAAAAA==",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAAEgAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-18T17:06:28.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "VigaAcoplePage.xaml",
-              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\Views\\VigaAcoplePage.xaml",
-              "RelativeDocumentMoniker": "DisenoVigas\\Views\\VigaAcoplePage.xaml",
-              "ToolTip": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\Views\\VigaAcoplePage.xaml",
-              "RelativeToolTip": "DisenoVigas\\Views\\VigaAcoplePage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-18T17:03:45.929Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DisenoModel.cs",
-              "DocumentMoniker": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\Models\\DisenoModel.cs",
-              "RelativeDocumentMoniker": "DisenoVigas\\Models\\DisenoModel.cs",
-              "ToolTip": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\Models\\DisenoModel.cs",
-              "RelativeToolTip": "DisenoVigas\\Models\\DisenoModel.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAxwEUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T17:03:28.249Z",
+              "WhenOpened": "2024-10-21T00:11:58.054Z",
               "EditorCaption": ""
             }
           ]

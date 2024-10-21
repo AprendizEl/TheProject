@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\DisenoVigas.csproj": {}
+    "C:\\Users\\jugad\\OneDrive\\Escritorio\\TheProject\\DisenoVigas\\DisenoVigas\\DisenoVigas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas.Core\\DisenoVigas.Core.csproj": {
+    "C:\\Users\\jugad\\OneDrive\\Escritorio\\TheProject\\DisenoVigas\\DisenoVigas.Core\\DisenoVigas.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas.Core\\DisenoVigas.Core.csproj",
+        "projectUniqueName": "C:\\Users\\jugad\\OneDrive\\Escritorio\\TheProject\\DisenoVigas\\DisenoVigas.Core\\DisenoVigas.Core.csproj",
         "projectName": "DisenoVigas.Core",
-        "projectPath": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas.Core\\DisenoVigas.Core.csproj",
-        "packagesPath": "C:\\Users\\eecheto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas.Core\\obj\\",
+        "projectPath": "C:\\Users\\jugad\\OneDrive\\Escritorio\\TheProject\\DisenoVigas\\DisenoVigas.Core\\DisenoVigas.Core.csproj",
+        "packagesPath": "C:\\Users\\jugad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jugad\\OneDrive\\Escritorio\\TheProject\\DisenoVigas\\DisenoVigas.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\eecheto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jugad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,29 +66,43 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\DisenoVigas.csproj": {
+    "C:\\Users\\jugad\\OneDrive\\Escritorio\\TheProject\\DisenoVigas\\DisenoVigas\\DisenoVigas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\DisenoVigas.csproj",
+        "projectUniqueName": "C:\\Users\\jugad\\OneDrive\\Escritorio\\TheProject\\DisenoVigas\\DisenoVigas\\DisenoVigas.csproj",
         "projectName": "DisenoVigas",
-        "projectPath": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\DisenoVigas.csproj",
-        "packagesPath": "C:\\Users\\eecheto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas\\obj\\",
+        "projectPath": "C:\\Users\\jugad\\OneDrive\\Escritorio\\TheProject\\DisenoVigas\\DisenoVigas\\DisenoVigas.csproj",
+        "packagesPath": "C:\\Users\\jugad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jugad\\OneDrive\\Escritorio\\TheProject\\DisenoVigas\\DisenoVigas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\eecheto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jugad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -96,14 +111,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0-windows10.0.19041": {
             "targetAlias": "net7.0-windows10.0.19041.0",
             "projectReferences": {
-              "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas.Core\\DisenoVigas.Core.csproj": {
-                "projectPath": "C:\\Users\\eecheto\\Desktop\\DisenoVigas\\DisenoVigas.Core\\DisenoVigas.Core.csproj"
+              "C:\\Users\\jugad\\OneDrive\\Escritorio\\TheProject\\DisenoVigas\\DisenoVigas.Core\\DisenoVigas.Core.csproj": {
+                "projectPath": "C:\\Users\\jugad\\OneDrive\\Escritorio\\TheProject\\DisenoVigas\\DisenoVigas.Core\\DisenoVigas.Core.csproj"
               }
             }
           }
@@ -161,44 +177,68 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
               "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
-              "version": "[7.0.20, 7.0.20]"
+              "version": "[7.0.18, 7.0.18]"
             },
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[7.0.20, 7.0.20]"
+              "version": "[7.0.18, 7.0.18]"
             },
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-              "version": "[7.0.20, 7.0.20]"
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-arm64",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x86",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-arm64",
-              "version": "[7.0.20, 7.0.20]"
+              "version": "[7.0.18, 7.0.18]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[7.0.20, 7.0.20]"
+              "version": "[7.0.18, 7.0.18]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x86",
-              "version": "[7.0.20, 7.0.20]"
+              "version": "[7.0.18, 7.0.18]"
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
-              "version": "[10.0.19041.43, 10.0.19041.43]"
+              "version": "[10.0.19041.31, 10.0.19041.31]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
-              "version": "[7.0.20, 7.0.20]"
+              "version": "[7.0.18, 7.0.18]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[7.0.20, 7.0.20]"
+              "version": "[7.0.18, 7.0.18]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
-              "version": "[7.0.20, 7.0.20]"
+              "version": "[7.0.18, 7.0.18]"
             }
           ],
           "frameworkReferences": {
@@ -209,7 +249,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

@@ -13,8 +13,8 @@ public sealed partial class DisenoPage : Page
 
     public DisenoPage()
     {
-        ViewModel = App.GetService<DisenoViewModel>();
+
         InitializeComponent();
-       
+        DataContext = App.GetService<DisenoViewModel>();
     }
 }

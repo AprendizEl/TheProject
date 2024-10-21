@@ -35,3 +35,16 @@ C:\Users\eecheto\Desktop\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\Disen
 C:\Users\eecheto\Desktop\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\refint\DisenoVigas.Core.dll
 C:\Users\eecheto\Desktop\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.pdb
 C:\Users\eecheto\Desktop\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\ref\DisenoVigas.Core.dll
+C:\Users\jugad\OneDrive\Escritorio\TheProject\DisenoVigas\DisenoVigas.Core\bin\x64\Debug\net7.0\DisenoVigas.Core.deps.json
+C:\Users\jugad\OneDrive\Escritorio\TheProject\DisenoVigas\DisenoVigas.Core\bin\x64\Debug\net7.0\DisenoVigas.Core.dll
+C:\Users\jugad\OneDrive\Escritorio\TheProject\DisenoVigas\DisenoVigas.Core\bin\x64\Debug\net7.0\DisenoVigas.Core.pdb
+C:\Users\jugad\OneDrive\Escritorio\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.csproj.AssemblyReference.cache
+C:\Users\jugad\OneDrive\Escritorio\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jugad\OneDrive\Escritorio\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.AssemblyInfoInputs.cache
+C:\Users\jugad\OneDrive\Escritorio\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.AssemblyInfo.cs
+C:\Users\jugad\OneDrive\Escritorio\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.csproj.CoreCompileInputs.cache
+C:\Users\jugad\OneDrive\Escritorio\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.sourcelink.json
+C:\Users\jugad\OneDrive\Escritorio\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.dll
+C:\Users\jugad\OneDrive\Escritorio\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\refint\DisenoVigas.Core.dll
+C:\Users\jugad\OneDrive\Escritorio\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\DisenoVigas.Core.pdb
+C:\Users\jugad\OneDrive\Escritorio\TheProject\DisenoVigas\DisenoVigas.Core\obj\x64\Debug\net7.0\ref\DisenoVigas.Core.dll
